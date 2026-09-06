@@ -1,0 +1,87 @@
+{
+  "name": "@irrigo/electron-app",
+  "version": "0.1.0",
+  "private": true,
+  "productName": "АртЛандшафт",
+  "description": "Оболочка АртЛандшафт: Electron main + preload + renderer",
+  "author": "АртЛандшафт",
+  "type": "module",
+  "main": "dist/main/index.cjs",
+  "scripts": {
+    "build:electron": "node scripts/build-electron.mjs",
+    "build:renderer": "vite build",
+    "build": "npm run build:electron && npm run build:renderer",
+    "dev": "node scripts/dev.mjs",
+    "start": "npm run build && electron .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "icon": "node ../../scripts/build-app-icon.ts",
+    "dist": "npm run build && npm run icon && electron-builder --win --publish never",
+    "dist:dir": "npm run build && npm run icon && electron-builder --win --dir --publish never"
+  },
+  "dependencies": {
+    "@irrigo/core": "*",
+    "@irrigo/ui": "*",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.15.4",
+    "zustand": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.0"
+  },
+  "build": {
+    "appId": "ru.artlandshaft.app",
+    "productName": "ArtLandshaft",
+    "copyright": "АртЛандшафт. Учебная программа, не проектная документация.",
+    "electronVersion": "44.0.0",
+    "directories": {
+      "output": "../../release",
+      "buildResources": "../../build"
+    },
+    "files": [
+      "dist/**/*",
+      "package.json",
+      "!node_modules/**/*",
+      "!**/*.map"
+    ],
+    "extraResources": [
+      {
+        "from": "../../content",
+        "to": "content",
+        "filter": [
+          "**/*.json",
+          "ARTlogo.png"
+        ]
+      }
+    ],
+    "asar": true,
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "executableName": "ArtLandshaft",
+      "icon": "../../build/icon.png",
+      "artifactName": "ArtLandshaft-Setup-${version}.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "perMachine": false,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "АртЛандшафт",
+      "installerLanguages": [
+        "ru_RU"
+      ],
+      "language": "1049",
+      "deleteAppDataOnUninstall": false
+    }
+  }
+}

@@ -1,0 +1,35 @@
+node_modules/
+dist/
+out/
+release/
+*.log
+.DS_Store
+.vite/
+coverage/
+*.db
+*.db-journal
+*.sqlite
+.env
+.env.*
+packages/*/dist/
+# Иконка собирается из логотипа скриптом build-app-icon и в репозитории не нужна.
+build/icon.png
+
+# ── Android (packages/mobile-app/android) ─────────────────────────────────
+# Сам нативный проект в репозитории нужен: в нём лежат правки манифеста,
+# подписи и ресурсов. А вот выход сборки, машинно-зависимые пути и ключи — нет.
+packages/mobile-app/android/**/build/
+packages/mobile-app/android/.gradle/
+packages/mobile-app/android/local.properties
+packages/mobile-app/android/keystore.properties
+packages/mobile-app/android/app/src/main/assets/public/
+packages/mobile-app/android/app/src/main/assets/capacitor.config.json
+*.keystore
+*.jks
+
+# ── Исходные каталоги производителей (PDF) ────────────────────────────────
+# Суммарно ~360 МБ, один файл 250 МБ — GitHub жёстко отклоняет >100 МБ.
+# Извлечённые данные (content/reference/*.json, *_text.txt) в репозитории есть,
+# поэтому сборка не ломается. Для повторного запуска scripts/extract-*.ts
+# PDF нужно положить в content/ вручную. См. DECISIONS.md.
+content/*.pdf

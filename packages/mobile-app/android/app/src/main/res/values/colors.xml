@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Палитра на стороне Android: этим цветом окрашены системная полоса, фон окна
+  до загрузки веб-части и заставка. Значения совпадают с токенами тёмной темы
+  интерфейса (packages/ui/src/theme/theme.css), иначе при запуске видно, как
+  один фон сменяется другим.
+-->
+<resources>
+    <!-- токен iw-accent — акцент интерфейса. -->
+    <color name="colorPrimary">#2D7A54</color>
+    <!-- токен iw-bg — фон приложения и системной полосы. -->
+    <color name="colorPrimaryDark">#081910</color>
+    <color name="colorAccent">#2D7A54</color>
+
+    <color name="artBackground">#081910</color>
+    <!-- токен iw-surface — панели. -->
+    <color name="artSurface">#0D2518</color>
+</resources>

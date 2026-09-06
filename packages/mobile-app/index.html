@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- viewport-fit=cover обязателен: без него env(safe-area-inset-*) всегда
+         нули, и шапка уезжает под системную полосу. user-scalable=no — потому
+         что двойное касание по кнопке калькулятора не должно зумить страницу. -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no"
+    />
+    <meta name="theme-color" content="#081910" />
+    <!--
+      Жёсткий CSP: приложение офлайн (§13 ТЗ), поэтому внешние источники
+      запрещены политикой, а не обещанием в документации. 'wasm-unsafe-eval'
+      нужен sql.js — без него WebView откажется компилировать модуль SQLite.
+    -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' data: blob:"
+    />
+    <meta name="application-name" content="АртЛандшафт" />
+    <title>АртЛандшафт</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./src/main.tsx"></script>
+  </body>
+</html>

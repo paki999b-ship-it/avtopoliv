@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
+    "types": ["node", "vite/client"],
+    "noEmit": true,
+    "paths": {
+      "@shared/*": ["../electron-app/src/shared/*"],
+      "@renderer/*": ["../electron-app/src/renderer/*"],
+      "@main/*": ["../electron-app/src/main/*"]
+    }
+  },
+  "include": ["src", "vite.config.ts", "capacitor.config.ts", "tailwind.config.js"]
+}

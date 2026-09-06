@@ -1,0 +1,55 @@
+{
+  "name": "irrigo-master",
+  "version": "0.1.0",
+  "private": true,
+  "productName": "АртЛандшафт",
+  "description": "АртЛандшафт — обучающая программа по автоматическому поливу (offline, Windows)",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "npm run test --workspaces --if-present",
+    "test:core": "npm run test --workspace @irrigo/core",
+    "build:core": "npm run build --workspace @irrigo/core",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "dev": "npm run dev --workspace @irrigo/electron-app",
+    "build": "npm run build --workspace @irrigo/electron-app",
+    "extract:catalog": "node scripts/extract-hunter-catalog.ts",
+    "verify:catalog": "node scripts/verify-hunter-sample.ts",
+    "test:app": "npm run test --workspace @irrigo/electron-app",
+    "start": "npm run start --workspace @irrigo/electron-app",
+    "extract:valves": "node scripts/extract-hunter-valves.ts",
+    "build:layout-tasks": "npm run build:core && node scripts/build-layout-tasks.ts",
+    "build:questions": "npm run build:core && node scripts/build-question-bank.ts",
+    "extract:pumps": "node scripts/extract-pump-catalogs.ts",
+    "extract:equipment": "node scripts/extract-hunter-equipment.ts",
+    "icon": "node scripts/build-app-icon.ts",
+    "dist": "npm run dist --workspace @irrigo/electron-app",
+    "dist:dir": "npm run dist:dir --workspace @irrigo/electron-app",
+    "dev:mobile": "npm run dev --workspace @irrigo/mobile-app",
+    "build:mobile": "npm run build --workspace @irrigo/mobile-app",
+    "test:mobile": "npm run test --workspace @irrigo/mobile-app",
+    "android:add": "npm exec --workspace @irrigo/mobile-app -- cap add android",
+    "android:icons": "node scripts/build-android-icons.ts",
+    "android:apk": "node scripts/build-android-apk.ts debug",
+    "android:apk:release": "node scripts/build-android-apk.ts release"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "overrides": {
+    "rollup": "npm:@rollup/wasm-node@^4.30.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "autoprefixer": "^10.5.4",
+    "electron": "^44.0.0",
+    "electron-builder": "^26.15.3",
+    "pdfjs-dist": "^4.10.38",
+    "postcss": "^8.5.26",
+    "tailwindcss": "^3.4.19",
+    "vite": "^5.4.21"
+  }
+}

@@ -1,0 +1,1524 @@
+{
+  "source": "Каталог Hunter, издание 41 (RU) — 2 части: 00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf, 00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf",
+  "extractedAt": "2026-08-30",
+  "note": "Перечень оборудования из таблиц «Модель — Описание» каталога. Числовые характеристики сопел, клапанов и фильтрации извлекаются отдельными скриптами и лежат в своих разделах справочника.",
+  "parts": [
+    {
+      "file": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf",
+      "firstPage": 1,
+      "lastPage": 124
+    },
+    {
+      "file": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf",
+      "firstPage": 125,
+      "lastPage": 228
+    }
+  ],
+  "rows": [
+    {
+      "section": "SRM",
+      "model": "SRM-04",
+      "description": "Выдвижение на 10 см, регулировка рабочего сектора, 8 стандартных форсунок",
+      "page": 18,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "КОМПЛЕКТЫ SNAPLOK",
+      "model": "HC-50F-50F",
+      "description": "Впуск с внутренней резьбой ½\" x Обратные клапаны HCV выпуск с внутренней резьбой ½\" Общая высота: 7,5 см",
+      "page": 39,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "КОМПЛЕКТЫ SNAPLOK",
+      "model": "HC-50F-50M",
+      "description": "Впуск с внутренней резьбой ½\" x выпуск с наружной резьбой ½\"",
+      "page": 39,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "КОМПЛЕКТЫ SNAPLOK",
+      "model": "HC-75F-75M",
+      "description": "Впуск с внутренней резьбой ¾\" x выпуск с наружной резьбой ¾\"",
+      "page": 39,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "ST-90-B",
+      "model": "ST-90-B-XX",
+      "description": "Выдвижной корпус 8 см, отвинчивающаяся крышка, регулируемый сектор, пластмассовая стойка, резьба BSP на входе, предварительно установленная форсунка № 73 или 83",
+      "page": 41,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "ECO-ROTATOR Eco-Rotator",
+      "model": "ECO-04-10-360",
+      "description": "Выдвижение на 10 см, MP-1000, радиус 2,5–4,5 м, полный оборот (360°)",
+      "page": 51,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "ECO-ROTATOR Eco-Rotator",
+      "model": "ECO-04-10-90",
+      "description": "Выдвижение на 10 см, MP-1000, радиус 2,5–4,5 м, регулируемый сектор",
+      "page": 51,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "ECO-ROTATOR Eco-Rotator",
+      "model": "ECO-04-20-360",
+      "description": "Выдвижение на 10 см, MP-2000, радиус 4,0– 6,4 м, полный оборот (360°)",
+      "page": 51,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "ECO-ROTATOR Eco-Rotator",
+      "model": "ECO-04-20-90",
+      "description": "Выдвижение на 10 см, MP-2000, радиус 4,0– 6,4 м, регулируемый сектор",
+      "page": 51,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "ECO-ROTATOR Eco-Rotator",
+      "model": "ECO-04-30-360",
+      "description": "Выдвижение на 10 см, MP-3000, радиус 6,7–9,1 м, полный оборот (360°) Радиус действия: 2,5–4,5 м Радиус действия: 4,0–6,4 м Регулируемый сектор и полный оборот Регулируемый сектор и полный оборот Темно-бордовый: 90°–210° Черный: 90°–210° Оливковый: 360° Красный: 360° Инт. полива, Поток Поток Радиус Поток Радиус Поток мм/ч /ч л/мин /ч л/мин М м М м",
+      "page": 51,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "ECO-ROTATOR Eco-Rotator",
+      "model": "ECO-04-30-90",
+      "description": "Выдвижение на 10 см, MP-3000, радиус 6,7– 9,1 м, регулируемый сектор",
+      "page": 51,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "ECO-ROTATOR Eco-Rotator",
+      "model": "ECO-04-800SR-360",
+      "description": "Выдвижение на 10 см, MP-800SR, радиус 1,8–3,5 м, полный оборот (360°)",
+      "page": 51,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "ECO-ROTATOR Eco-Rotator",
+      "model": "ECO-04-800SR-90",
+      "description": "Выдвижение на 10 см, MP-800SR, радиус 1,8–3,5 м, регулируемый сектор",
+      "page": 51,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "КОМПЛЕКТ ШТЫРЕЙ ДЛЯ MP ROTATOR",
+      "model": "MP-STAKE",
+      "description": "Стойка высотой 66 см, трубка диаметром 0,345\" (9 мм) для подключения фитинга с наружной резьбой диаметром 1/ 2\", адаптер для кустарников PROS-00 (общая высота: 71 см)",
+      "page": 58,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "КОМПЛЕКТ ШТЫРЕЙ ДЛЯ MP ROTATOR",
+      "model": "MP-STAKE-PRS40-CV",
+      "description": "Стойка высотой 66 см, трубка диаметром 0,345\" (9 мм) для подключения фитинга с наружной резьбой 1/ 2\", обратный клапан Hunter, адаптер для кустарников PROS-00-PRS40 с регулировкой давления (общая высота: 86 см)",
+      "page": 58,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "HPC",
+      "model": "HPC-400",
+      "description": "Базовая модель на 4 станции, пластмассовый корпус с настенным креплением, ~120 В, с кабелем и вилкой стандарта США",
+      "page": 113,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "HPC",
+      "model": "HPC-401-A",
+      "description": "Базовая модель на 4 станции, пластмассовый корпус с настенным креплением, ~230 В, с кабелем и вилкой стандарта Австралии Передняя панель Hydrawise для модернизации контроллеров Pro-C (модели, выпущенные начиная с марта 2014 г.)",
+      "page": 113,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "HPC",
+      "model": "HPC-401-E",
+      "description": "Базовая модель на 4 станции, пластмассовый корпус с настенным креплением, ~230 В, с кабелем и вилкой европейского стандарта",
+      "page": 113,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "HPC",
+      "model": "PCM-900",
+      "description": "Подключаемый модуль на 9 зон",
+      "page": 113,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "HCC",
+      "model": "HCC-800-M",
+      "description": "Базовая модель на 8 станций, серый металл, для наружного монтажа, настенное крепление",
+      "page": 114,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "HCC",
+      "model": "HCC-800-PL",
+      "description": "Базовая модель на 8 станций, пластик, для наружного монтажа, настенное крепление",
+      "page": 114,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "HCC",
+      "model": "HCC-800-PP",
+      "description": "Базовая модель на 8 станций, пластиковая стойка",
+      "page": 114,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "HCC",
+      "model": "HCC-800-SS",
+      "description": "Базовая модель на 8 станций, нержавеющая сталь, настенное крепление",
+      "page": 114,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "HCC",
+      "model": "HCC-FPUP",
+      "description": "Комплект для модернизации для контроллеров ICC и ICC2",
+      "page": 114,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "HCC",
+      "model": "ICC-PWB",
+      "description": "Дополнительная монтажная пластина для использования с металлическими стойками",
+      "page": 114,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "HCC",
+      "model": "ICM-2200",
+      "description": "Расширительный модуль на 22 станции (не больше одного на контроллер)",
+      "page": 114,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "HCC",
+      "model": "WVOM-E",
+      "description": "см. стр. 142 См. hunter.info/EZDSem; см. стр. 144 См. hunter.info/WVLem;",
+      "page": 114,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "ПЛАТФОРМА CENTRALUS",
+      "model": "A2C-LTEM",
+      "description": "Контроллер 4G для глобального подключения ACC2, MCC и SkyCommand UCH (требуется ежемесячный тарифный план) Подключение по Wi-Fi к контроллерам ACC2 и MCC и узлу связи Сотовая связь для контроллера ICC2 (требуется тарифный план)",
+      "page": 118,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "ПЛАТФОРМА CENTRALUS",
+      "model": "PC-WIFI",
+      "description": "Подключение ICC2 через LAN (Ethernet) Подключение контроллера ICC2 к Wi-Fi Подключение контроллера Pro-C к Wi-Fi",
+      "page": 118,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "ДОПОЛНИТЕЛЬНЫЕ ХАРАКТЕРИСТИКИ МОДЕЛЕЙ",
+      "model": "A2C-1200-M",
+      "description": "Базовый модульный контроллер на 12 станций (с возможностью расширения до 54 станций), настенное крепление из стали серого цвета, для наружного монтажа",
+      "page": 121,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "ДОПОЛНИТЕЛЬНЫЕ ХАРАКТЕРИСТИКИ МОДЕЛЕЙ",
+      "model": "A2C-1200-P",
+      "description": "Базовый модульный контроллер на 12 станций (с возможностью расширения до 54 станций), пластиковый, для наружного монтажа, настенное крепление",
+      "page": 121,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "ДОПОЛНИТЕЛЬНЫЕ ХАРАКТЕРИСТИКИ МОДЕЛЕЙ",
+      "model": "A2C-1200-PP",
+      "description": "Базовый модульный контроллер на 12 станций (с возможностью расширения до 54 станций), пластиковая стойка",
+      "page": 121,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "ДОПОЛНИТЕЛЬНЫЕ ХАРАКТЕРИСТИКИ МОДЕЛЕЙ",
+      "model": "A2C-1200-SBKIT",
+      "description": "Стандартный комплект StrongBox для установки контроллера ACC2 на стойке из нержавеющей стали SB16SS",
+      "page": 121,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "ДОПОЛНИТЕЛЬНЫЕ ХАРАКТЕРИСТИКИ МОДЕЛЕЙ",
+      "model": "A2C-1200-SS",
+      "description": "Базовый модульный контроллер на 12 станций (с возможностью расширения до 54 станций), настенное крепление из нержавеющей стали, для наружного монтажа",
+      "page": 121,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "ДОПОЛНИТЕЛЬНЫЕ ХАРАКТЕРИСТИКИ МОДЕЛЕЙ",
+      "model": "A2C-F3",
+      "description": "ДВУСТОРОННЯЯ ПАНЕЛЬ УПРАВЛЕНИЯ ACC2 И РЕЖИМ АВТОМАТИЧЕСКОЙ ДИАГНОСТИКИ Описание Дополнительная опция — расширительный модуль для подключения датчиков расхода (добавляет 3 входа)",
+      "page": 121,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "ДОПОЛНИТЕЛЬНЫЕ ХАРАКТЕРИСТИКИ МОДЕЛЕЙ",
+      "model": "A2C-LAN",
+      "description": "Подключение ACC2 через Wi-Fi Подключение ACC2 через LAN (Ethernet)",
+      "page": 121,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "ДОПОЛНИТЕЛЬНЫЕ ХАРАКТЕРИСТИКИ МОДЕЛЕЙ",
+      "model": "A2C-LEDKT",
+      "description": "Внешний индикатор отображает состояние контроллера при закрытой дверце",
+      "page": 121,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "ДОПОЛНИТЕЛЬНЫЕ ХАРАКТЕРИСТИКИ МОДЕЛЕЙ",
+      "model": "A2M-600",
+      "description": "Подключаемый модуль на 6 станций для использования с контроллерами из серии A2C-1200 Примечание *Сертификат, подтверждающий знак качества SASO",
+      "page": 121,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "ДОПОЛНИТЕЛЬНЫЕ ХАРАКТЕРИСТИКИ МОДЕЛЕЙ",
+      "model": "ACC-PED",
+      "description": "Стойка серого цвета для использования с настенным креплением",
+      "page": 121,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "ДОПОЛНИТЕЛЬНЫЕ ХАРАКТЕРИСТИКИ МОДЕЛЕЙ",
+      "model": "PED-SS",
+      "description": "Стойка из нержавеющей стали для использования с настенным креплением",
+      "page": 121,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "ДОПОЛНИТЕЛЬНЫЕ ХАРАКТЕРИСТИКИ МОДЕЛЕЙ",
+      "model": "A2C-WIFI",
+      "description": "Коммуникационный модуль Wi-Fi",
+      "page": 123,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "ДОПОЛНИТЕЛЬНЫЕ ХАРАКТЕРИСТИКИ МОДЕЛЕЙ",
+      "model": "ICC-PED",
+      "description": "Серая металлическая стойка для корпуса контроллера HCC, ICC2 или MCC из того же материала",
+      "page": 123,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "ДОПОЛНИТЕЛЬНЫЕ ХАРАКТЕРИСТИКИ МОДЕЛЕЙ",
+      "model": "MCC-800-M",
+      "description": "Контроллер MCC, базовая модель на 8 станций, настенное крепление для наружного монтажа (серый металл)",
+      "page": 123,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "ДОПОЛНИТЕЛЬНЫЕ ХАРАКТЕРИСТИКИ МОДЕЛЕЙ",
+      "model": "MCC-800-P",
+      "description": "Контроллер MCC, базовая модель на 8 станций, настенное крепление для наружного монтажа (пластик)",
+      "page": 123,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "ДОПОЛНИТЕЛЬНЫЕ ХАРАКТЕРИСТИКИ МОДЕЛЕЙ",
+      "model": "MCC-800-PP",
+      "description": "Контроллер MCC, базовая модель на 8 станций, пластиковая стойка",
+      "page": 123,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "ДОПОЛНИТЕЛЬНЫЕ ХАРАКТЕРИСТИКИ МОДЕЛЕЙ",
+      "model": "MCC-800-SS",
+      "description": "Контроллер MCC, базовая модель на 8 станций, настенное крепление для наружного монтажа (нержавеющая сталь)",
+      "page": 123,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "ДОПОЛНИТЕЛЬНЫЕ ХАРАКТЕРИСТИКИ МОДЕЛЕЙ",
+      "model": "MCC-SBKIT",
+      "description": "Комплект StrongBox для установки контроллера MCC на стойке из нержавеющей стали SB16SS",
+      "page": 123,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-1-124.pdf"
+    },
+    {
+      "section": "КОНТРОЛЛЕРЫ ICC2 С ВОЗМОЖНОСТЬЮ МОНИТОРИНГА РАСХОДА",
+      "model": "EZ-DM",
+      "description": "Внешний двухпроводной Внешний двухпроводной декодер для электромагнитных декодер для электромагнитных клапанов на ~24 В клапанов на ~24 В",
+      "page": 125,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "КОНТРОЛЛЕРЫ ICC2 С ВОЗМОЖНОСТЬЮ МОНИТОРИНГА РАСХОДА",
+      "model": "I2C-800-SBKIT",
+      "description": "Комплект StrongBox для установки контроллера ICC2 на стойке из нержавеющей стали SB16SS",
+      "page": 125,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "КОНТРОЛЛЕРЫ ICC2 С ВОЗМОЖНОСТЬЮ МОНИТОРИНГА РАСХОДА",
+      "model": "I2CF-800-M",
+      "description": "Базовая модель на 8 станций, настенное крепление для наружного монтажа (серый металл)",
+      "page": 125,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "КОНТРОЛЛЕРЫ ICC2 С ВОЗМОЖНОСТЬЮ МОНИТОРИНГА РАСХОДА",
+      "model": "I2CF-800-PL",
+      "description": "Базовая модель на 8 станций, пластик, для наружного монтажа, настенное крепление",
+      "page": 125,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "КОНТРОЛЛЕРЫ ICC2 С ВОЗМОЖНОСТЬЮ МОНИТОРИНГА РАСХОДА",
+      "model": "I2CF-800-PP",
+      "description": "Базовая модель на 8 станций, пластиковая стойка",
+      "page": 125,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "КОНТРОЛЛЕРЫ ICC2 С ВОЗМОЖНОСТЬЮ МОНИТОРИНГА РАСХОДА",
+      "model": "I2CF-800-SS",
+      "description": "Базовая модель на 8 станций, настенное крепление (нержавеющая сталь)",
+      "page": 125,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "КОНТРОЛЛЕРЫ ICC2 С ВОЗМОЖНОСТЬЮ МОНИТОРИНГА РАСХОДА",
+      "model": "ICC-FPUP2",
+      "description": "Комплект для модернизации оригинальных контроллеров ICC до версии ICC2",
+      "page": 125,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "КОНТРОЛЛЕРЫ ICC2 С ВОЗМОЖНОСТЬЮ МОНИТОРИНГА РАСХОДА",
+      "model": "ICC-PED-SS",
+      "description": "Стойка из нержавеющей стали для использования с креплением контроллера из нержавеющей стали",
+      "page": 125,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "КОНТРОЛЛЕРЫ ICC2 С ВОЗМОЖНОСТЬЮ МОНИТОРИНГА РАСХОДА",
+      "model": "ICM-400",
+      "description": "Стандартный модуль вывода Стандартный модуль вывода на 8 станций на 22 станции",
+      "page": 125,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "КОНТРОЛЛЕРЫ ICC2 С ВОЗМОЖНОСТЬЮ МОНИТОРИНГА РАСХОДА",
+      "model": "ICM-800",
+      "description": "8-станционный подключаемый модуль с улучшенной защитой от перенапряжения",
+      "page": 125,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "PRO-C",
+      "model": "P2C-400",
+      "description": "База с поддержкой 4 станций, пластмассовый корпус с настенным креплением, ~120 В с кабелем и разъемом стандарта США",
+      "page": 127,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "PRO-C",
+      "model": "P2C-401-A",
+      "description": "База с поддержкой 4 станций, пластмассовый корпус с настенным креплением, ~230 В с кабелем и разъемом стандарта Австралии",
+      "page": 127,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "PRO-C",
+      "model": "P2C-401-E",
+      "description": "База с поддержкой 4 станций, пластмассовый корпус с настенным креплением, ~230 В с кабелем и разъемом европейского стандарта",
+      "page": 127,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "PRO-C",
+      "model": "PCM-1600",
+      "description": "Высота: 7,5 см Ширина: 7,5 см Толщина: 3,0 см",
+      "page": 127,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "PRO-C",
+      "model": "PCM-300",
+      "description": "Высота: 7,5 см Высота: 11,0 см Ширина: 7,5 см Ширина: 6,0 см Толщина: 3,0 см Глубина: 1,5 см",
+      "page": 127,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "PRO-C",
+      "model": "A2C-LORA-E",
+      "description": "Универсальный узел связи с интерфейсом Bluetooth Беспроводной модуль вывода LoRa",
+      "page": 129,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "PRO-C",
+      "model": "BOC-100-E",
+      "description": "Беспроводной контроллер на одну станцию, питание от батареек, есть входной разъем для датчика влажности почвы",
+      "page": 129,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "PRO-C",
+      "model": "BOC-100-FL-E",
+      "description": "Беспроводной контроллер на одну станцию, питание от батареек, есть входные разъемы для датчиков расхода и влажности почвы",
+      "page": 129,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "PRO-C",
+      "model": "BOC-200-E",
+      "description": "Беспроводной контроллер на две станции, питание от батареек, есть входной разъем для датчика влажности почвы",
+      "page": 129,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "PRO-C",
+      "model": "BOC-400-E",
+      "description": "Беспроводной контроллер на четыре станции, питание от батареек, есть входной разъем для датчика влажности почвы",
+      "page": 129,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "PRO-C",
+      "model": "SST-E",
+      "description": "Портативный беспроводной прибор для обследования объекта",
+      "page": 129,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ТАЙМЕРЫ BTT",
+      "model": "BTT-101",
+      "description": "1-зонный таймер для крана с поддержкой Bluetooth, резьба BSP 1 дюйм (25 мм) и 3/4 дюйма для подключения шланга, переходник быстросъемной муфты",
+      "page": 132,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ТАЙМЕРЫ BTT",
+      "model": "BTT-201",
+      "description": "2-зонный таймер для крана с поддержкой Bluetooth, резьба BSP 1 дюйм (25 мм) и 3/4 дюйма для подключения шланга, переходник быстросъемной муфты",
+      "page": 132,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ТАЙМЕРЫ BTT",
+      "model": "BTT-LOC",
+      "description": "Переходник BTT для капельных трубок 16–18 мм",
+      "page": 132,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ТАЙМЕРЫ BTT",
+      "model": "PRLG203FH3MH",
+      "description": "Регулятор давления на 1,4 бар (140 кПа), резьбовое соединение для шланга ¾ дюйма",
+      "page": 132,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ТАЙМЕРЫ BTT",
+      "model": "PRLG253FH3MH",
+      "description": "Регулятор давления на 1,7 бар (170 кПа), резьбовое соединение для шланга ¾ дюйма",
+      "page": 132,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ТАЙМЕРЫ BTT",
+      "model": "PRLG303FH3MH",
+      "description": "Регулятор давления на 2 бар (200 кПа), резьбовое соединение для шланга ¾ дюйма",
+      "page": 132,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ТАЙМЕРЫ BTT",
+      "model": "PRLG403FH3MH",
+      "description": "Регулятор давления на 2,8 бар (280 кПа), резьбовое соединение для шланга ¾ дюйма являются зарегистрированными товарными знаками,",
+      "page": 132,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "NODE",
+      "model": "NODE-100",
+      "description": "Однозонный контроллер с питанием от батарей и фиксирующий соленоид постоянного тока",
+      "page": 133,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "NODE",
+      "model": "NODE-100-LS",
+      "description": "Однозонный контроллер с питанием от батарей",
+      "page": 133,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "NODE",
+      "model": "NODE-100-VALVE",
+      "description": "Однозонный контроллер с питанием от батарей, клапаном PGV-101G и фиксирующим соленоидом постоянного тока (резьба NPT)",
+      "page": 133,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "NODE",
+      "model": "NODE-100-VALVE-B",
+      "description": "Однозонный контроллер с питанием от батарей, клапаном PGV-101G-B и фиксирующим соленоидом постоянного тока (резьба BSP) Комплект солнечной панели для контроллеров NODE Фиксирующий соленоид постоянного тока (для всех клапанов Hunter)",
+      "page": 133,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "NODE",
+      "model": "NODE-200",
+      "description": "2-зонный контроллер с питанием от батарей",
+      "page": 133,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "NODE",
+      "model": "NODE-400",
+      "description": "4-зонный контроллер с питанием от батарей",
+      "page": 133,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "NODE",
+      "model": "NODE-600",
+      "description": "6-станционный контроллер с питанием от батарей",
+      "page": 133,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "NODE-BT",
+      "model": "NODE-BT-100",
+      "description": "Одностанционный контроллер с функцией Bluetooth, питанием от аккумуляторных батарей и фиксирующим электромагнитным клапаном постоянного тока",
+      "page": 134,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "NODE-BT",
+      "model": "NODE-BT-100-LS",
+      "description": "Одностанционный контроллер с функцией Bluetooth и питанием от аккумуляторных батарей",
+      "page": 134,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "NODE-BT",
+      "model": "NODE-BT-100-VALVE",
+      "description": "Одностанционный контроллер с функцией Bluetooth, питанием от аккумуляторных батарей, клапаном PGV-101G и фиксирующим Совместим с: электромагнитным клапаном постоянного тока (резьба NPT)",
+      "page": 134,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "NODE-BT",
+      "model": "NODE-BT-100-VALVE-B",
+      "description": "Одностанционный контроллер с функцией Bluetooth, питанием от аккумуляторных батарей, клапаном PGV-101G и фиксирующим электромагнитным клапаном постоянного тока (резьба BSP)",
+      "page": 134,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "NODE-BT",
+      "model": "NODE-BT-200",
+      "description": "Двухстанционный контроллер с функцией Bluetooth и питанием от аккумуляторных батарей",
+      "page": 134,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "NODE-BT",
+      "model": "NODE-BT-400",
+      "description": "Четырехстанционный контроллер с функцией Bluetooth и питанием от аккумуляторных батарей",
+      "page": 134,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "NODE-BT",
+      "model": "SP-NODE-BT",
+      "description": "Комплект солнечных панелей для контроллеров NODE-BT Фиксирующий электромагнитный клапан постоянного тока являются зарегистрированными товарными знаками,",
+      "page": 134,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "XC HYBRID",
+      "model": "XCH-1200",
+      "description": "12-станционный контроллер с питанием от батарей",
+      "page": 135,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "XC HYBRID",
+      "model": "XCH-1200-SS",
+      "description": "12-станционный контроллер с питанием от батарей, нержавеющая сталь",
+      "page": 135,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "XC HYBRID",
+      "model": "XCH-1200-SSP",
+      "description": "12-станционный контроллер с питанием от батарей, нержавеющая сталь, с установленной солнечной панелью Фиксирующий соленоид постоянного тока (для всех клапанов Hunter)",
+      "page": 135,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "XC HYBRID",
+      "model": "XCH-600",
+      "description": "6-станционный контроллер с питанием от батарей",
+      "page": 135,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "XC HYBRID",
+      "model": "XCH-600-SS",
+      "description": "6-станционный контроллер с питанием от батарей, нержавеющая сталь",
+      "page": 135,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "XC HYBRID",
+      "model": "XCH-600-SSP",
+      "description": "6-станционный контроллер с питанием от батарей, нержавеющая сталь, с установленной солнечной панелью",
+      "page": 135,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ПРОГРАММА HUNTER 360",
+      "model": "H-360",
+      "description": "Программа Hunter 360 для управления поливом (на флеш-накопителе USB 2 или 3)",
+      "page": 137,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ПРОГРАММА HUNTER 360",
+      "model": "H-360-ET",
+      "description": "Программа Hunter 360 для расширенного управления поливом с учетом испарения (на флеш-накопителе USB 2 или 3)",
+      "page": 137,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ПРОГРАММА HUNTER 360",
+      "model": "WS-360-CELL",
+      "description": "Метеостанция с сотовой/облачной связью",
+      "page": 137,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ПРОГРАММА HUNTER 360",
+      "model": "WS-360-TCP",
+      "description": "Метеостанция со связью по протоколу Modbus TCP",
+      "page": 137,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ПРОГРАММА HUNTER 360",
+      "model": "WS-SM-TEMP",
+      "description": "Датчик температуры со связью по протоколу TCP",
+      "page": 137,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ПРОГРАММА HUNTER 360",
+      "model": "WS-SM1",
+      "description": "Датчик влажности почвы со связью по протоколу TCP",
+      "page": 137,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ПРОГРАММА HUNTER 360",
+      "model": "WS-SM3",
+      "description": "Комплект для анализа влажности почвы WS-360-CELL: три датчика влажности и датчик температуры",
+      "page": 137,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ПОЛЕВЫЕ СЕРВЕРЫ HUNTER",
+      "model": "FS-1000",
+      "description": "Полевой сервер, 1000 элементов данных",
+      "page": 138,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ПОЛЕВЫЕ СЕРВЕРЫ HUNTER",
+      "model": "FS-3000",
+      "description": "Полевой сервер, 3000 элементов данных",
+      "page": 138,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДЕКОДЕРЫ ICD",
+      "model": "ICD-100",
+      "description": "Одностанционный декодер с защитой от перенапряжения и проводом заземления",
+      "page": 140,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДЕКОДЕРЫ ICD",
+      "model": "ICD-200",
+      "description": "2-станционный декодер с защитой от перенапряжения и проводом заземления",
+      "page": 140,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДЕКОДЕРЫ ICD",
+      "model": "ICD-400",
+      "description": "4-станционный декодер с защитой от перенапряжения и проводом заземления",
+      "page": 140,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДЕКОДЕРЫ ICD",
+      "model": "ICD-600",
+      "description": "6-станционный декодер с защитой от перенапряжения и проводом заземления",
+      "page": 140,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДЕКОДЕРЫ ICD",
+      "model": "ICD-SEN",
+      "description": "Декодер датчиков на 2 входа с защитой от перенапряжения и проводом заземления",
+      "page": 140,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДЕКОДЕРЫ ICD",
+      "model": "ID1BLU",
+      "description": "Синяя оболочка Синяя оболочка",
+      "page": 140,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДЕКОДЕРЫ ICD",
+      "model": "ID1GRY",
+      "description": "Декодерный кабель повышенной прочности для больших расстояний, 4 мм² Серая оболочка Серая оболочка",
+      "page": 140,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДЕКОДЕРЫ ICD",
+      "model": "ID1ORG",
+      "description": "Оранжевая Оранжевая оболочка оболочка",
+      "page": 140,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДЕКОДЕРЫ ICD",
+      "model": "ID1PUR",
+      "description": "Фиолетовая Фиолетовая оболочка оболочка",
+      "page": 140,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДЕКОДЕРЫ ICD",
+      "model": "ID1TAN",
+      "description": "Песочная оболочка Песочная оболочка Провод ID 2 4,5 км с системами на базе ICD Контроллер",
+      "page": 140,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДЕКОДЕРЫ ICD",
+      "model": "ID1YLW",
+      "description": "Желтая оболочка Желтая оболочка",
+      "page": 140,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ПРОГРАММАТОР ICD-HP",
+      "model": "ICD-HP",
+      "description": "Переносной беспроводной программатор декодеров поставляется со всеми необходимыми кабелями для тестирования и подачи питания, насадкой для программирования и прочным кейсом для транспортировки",
+      "page": 141,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДЕКОДЕРНАЯ СИСТЕМА EZ",
+      "model": "EZ-DT",
+      "description": "Диагностический прибор EZ-DT",
+      "page": 142,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДЕКОДЕРНАЯ СИСТЕМА EZ",
+      "model": "PC-DM",
+      "description": "Модуль вывода декодера для контроллеров Pro-C и HPC",
+      "page": 142,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "EZ-DT",
+      "model": "EZ-1",
+      "description": "Одностанционный декодер со светодиодным индикатором статуса",
+      "page": 143,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "EZ-DT",
+      "model": "EZ-LR",
+      "description": "Декодер на одну станцию с большой дальностью связи и светодиодным индикатором",
+      "page": 143,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "Установленный модуль WVOM-E с Bluetooth-приложением Беспроводной ретра",
+      "model": "RPT-E",
+      "description": "Беспроводной ретранслятор с питанием от солнечной панели для увеличения радиуса действия WVL (не более 1 на систему)",
+      "page": 145,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "Установленный модуль WVOM-E с Bluetooth-приложением Беспроводной ретра",
+      "model": "SP-WVL",
+      "description": "(для всех клапанов Hunter) Солнечная панель для контроллеров WVL (комплект) Надземное крепление на стену или столб для WVL",
+      "page": 145,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "Установленный модуль WVOM-E с Bluetooth-приложением Беспроводной ретра",
+      "model": "WVL-100-E",
+      "description": "Беспроводной модуль связи с одной станцией",
+      "page": 145,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "Установленный модуль WVOM-E с Bluetooth-приложением Беспроводной ретра",
+      "model": "WVL-200-E",
+      "description": "Беспроводной модуль связи с 2 станциями",
+      "page": 145,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "Установленный модуль WVOM-E с Bluetooth-приложением Беспроводной ретра",
+      "model": "WVL-400-E",
+      "description": "Беспроводной модуль связи с 4 станциями",
+      "page": 145,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "УНИВЕРСАЛЬНЫЕ КОЛЫШКИ ДЛЯ ДЕКОДЕРА",
+      "model": "ANT-EXT-KIT",
+      "description": "Универсальный комплект удлинителя антенны для обеспечения качественной радиосвязи с использованием (с проводом длиной 2,7 м и крепежными элементами) функции Wi-Fi, сети мобильной связи и LoRa",
+      "page": 146,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "УНИВЕРСАЛЬНЫЕ КОЛЫШКИ ДЛЯ ДЕКОДЕРА",
+      "model": "DECSTAKE10",
+      "description": "Универсальная стойка для монтажа декодера (10 шт. в упаковке), хомуты в комплекте",
+      "page": 146,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "УНИВЕРСАЛЬНЫЕ КОЛЫШКИ ДЛЯ ДЕКОДЕРА",
+      "model": "PED-LID-ANT-BRKT",
+      "description": "Крепление для установки антенны на пластиковой стойке",
+      "page": 146,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ВОДОНЕПРОНИЦАЕМЫЕ РАЗЪЕМЫ",
+      "model": "DBRY100",
+      "description": "100 разъемов насыпом (100 трубок, свободно размещенных в ящике, внутри упаковки находится ящик со 100 соединительными изолирующими зажимами)",
+      "page": 147,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ВОДОНЕПРОНИЦАЕМЫЕ РАЗЪЕМЫ",
+      "model": "DBRY2X25",
+      "description": "2 упаковки по 25 шт. (25 компл., по 2 трубки и 2 соединительных изолирующих зажима в полиэтиленовом пакете в каждом)",
+      "page": 147,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ВОДОНЕПРОНИЦАЕМЫЕ РАЗЪЕМЫ",
+      "model": "WC100",
+      "description": "100 разъемов насыпом в упаковке",
+      "page": 147,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ПУЛЬТ ROAM",
+      "model": "ROAM-KIT",
+      "description": "В комплект входят трансмиттер, ресивер, жгут проводов SmartPort и 4 батареи типа AAA",
+      "page": 148,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ПУЛЬТ ROAM",
+      "model": "ROAM-R",
+      "description": "Модуль ресивера",
+      "page": 148,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ПУЛЬТ ROAM",
+      "model": "ROAM-SCWH",
+      "description": "Экранированный жгут проводов SmartPort (длина: 7,6 м) Кронштейн настенного крепления для набора проводов SmartPort",
+      "page": 148,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ПУЛЬТ ROAM",
+      "model": "ROAM-TR",
+      "description": "В комплект входят модуль трансмиттера и 4 батареи типа ААА",
+      "page": 148,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ПУЛЬТ ДИСТАНЦИОННОГО УПРАВЛЕНИЯ ROAM LR",
+      "model": "ROAM-LR-KIT",
+      "description": "В комплект поставки входят передатчик, приемник, набор проводов SmartPort, 4 батареи типа AAA и пластиковый кейс для транспортировки",
+      "page": 149,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ПУЛЬТ ДИСТАНЦИОННОГО УПРАВЛЕНИЯ ROAM LR",
+      "model": "ROAM-LR-R",
+      "description": "Модуль ресивера (в комплект входит жгут проводов SmartPort)",
+      "page": 149,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ПУЛЬТ ДИСТАНЦИОННОГО УПРАВЛЕНИЯ ROAM LR",
+      "model": "ROAM-LR-TR",
+      "description": "В комплект поставки входят переносной трансмиттер и 4 батареи типа ААА",
+      "page": 149,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ПУЛЬТ ДИСТАНЦИОННОГО УПРАВЛЕНИЯ ROAM LR",
+      "model": "ROAM-WH",
+      "description": "Кронштейн настенного крепления для набора проводов SmartPort Жгут проводов SmartPort (длина: 1,8 м)",
+      "page": 149,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "PSR",
+      "model": "PSR-22",
+      "description": "Двухполюсное/однопозиционное реле запуска для насосов с питающим напряжением ~120 В и мощностью до 1,5 кВт или насосов с питающим напряжением и ~230 В мощностью до 2,2 кВт",
+      "page": 150,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "PSR",
+      "model": "PSR-52",
+      "description": "Двухполюсное/однопозиционное реле запуска для насосов с питающим напряжением ~120 В и мощностью до 2,2 кВт или насосов с питающим напряжением ~230 В и мощностью до 5,6 кВт",
+      "page": 150,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "PSR",
+      "model": "PSR-53",
+      "description": "Трехполюсное/однопозиционное реле запуска для насосов с питающим напряжением ~120 В и мощностью до 2,2 кВт, насосов с питающим напряжением ~230 В и мощностью до 5,6 кВт или насосов с питающим напряжением ~230 В и мощностью до 7,5 кВт (3-фазное напряжение)",
+      "page": 150,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "PSR",
+      "model": "PSR-B",
+      "description": "Усилитель реле запуска насоса для повышения выходной мощности контроллера",
+      "page": 150,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДАТЧИК RAIN-CLIK",
+      "model": "RAIN-CLIK",
+      "description": "Проводной датчик дождя Rain-Clik",
+      "page": 154,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДАТЧИК RAIN-CLIK",
+      "model": "RAIN-CLIK-NO",
+      "description": "Проводной датчик Rain-Clik с нормально разомкнутыми контактами Проводной датчик дождя/заморозков Rain/Freeze-Clik",
+      "page": 154,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДАТЧИК RAIN-CLIK",
+      "model": "WR-CLIK",
+      "description": "Беспроводной датчик Rain/Freeze-Clik с приемником и креплением для установки на водосточный желоб",
+      "page": 154,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДАТЧИК RAIN-CLIK",
+      "model": "WS-GUARD",
+      "description": "Защитный корпус для беспроводного датчика в антивандальном исполнении, предназначенный для монтажа на поверхности или линейной опоре",
+      "page": 154,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДАТЧИК MINI-CLIK",
+      "model": "MINI-CLIK",
+      "description": "Датчик Mini-Clik",
+      "page": 155,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДАТЧИК MINI-CLIK",
+      "model": "MINI-CLIK-C",
+      "description": "Датчик Mini-Clik для монтажа с использованием кабелепровода",
+      "page": 155,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДАТЧИК MINI-CLIK",
+      "model": "MINI-CLIK-NO",
+      "description": "Датчик Mini-Clik с нормально разомкнутыми контактами",
+      "page": 155,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДАТЧИК MINI-CLIK",
+      "model": "SG-MC",
+      "description": "Датчик Mini-Clik в корпусе из нержавеющей стали",
+      "page": 155,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДАТЧИК MINI-CLIK",
+      "model": "WM-CLIK",
+      "description": "Беспроводной датчик Mini-Clik, приемник и крепление для установки на водосточном желобе",
+      "page": 155,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДАТЧИК SOLAR SYNC",
+      "model": "SOLAR-SYNC-SEN",
+      "description": "Проводной датчик Solar Sync и крепление на водосточный желоб",
+      "page": 156,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДАТЧИК SOLAR SYNC",
+      "model": "WR-GUARD",
+      "description": "Защитный корпус беспроводного приемника в антивандальном исполнении, предназначенный для размещения на стойках Устройство получило репутацию заслуживающего доверия инструмента, который гарантирует значительную экономию воды.",
+      "page": 156,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДАТЧИК SOLAR SYNC",
+      "model": "WSS-SEN",
+      "description": "Беспроводной датчик Solar Sync, ресивер и крепление на водосточный желоб",
+      "page": 156,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДАТЧИК SOIL-CLIK",
+      "model": "SC-PROBE",
+      "description": "Чувствительный элемент датчика влажности почвы для NODE-BT (модуль не используется)",
+      "page": 157,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДАТЧИК SOIL-CLIK",
+      "model": "SOIL-CLIK",
+      "description": "Модуль датчика влажности грунта Soil-Clik и чувствительный элемент",
+      "page": 157,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "РАСХОДОМЕР HC",
+      "model": "HC-075-FLOW-B",
+      "description": "Расходомер HC с наружной резьбой BSP 20 мм, измерение в м",
+      "page": 158,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "РАСХОДОМЕР HC",
+      "model": "HC-100-FLOW-B",
+      "description": "Расходомер HC с наружной резьбой BSP 25 мм, измерение в м",
+      "page": 158,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "РАСХОДОМЕР HC",
+      "model": "HC-150-FLOW-B",
+      "description": "Расходомер HC с наружной резьбой BSP 40 мм, измерение в м",
+      "page": 158,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "РАСХОДОМЕР HC",
+      "model": "HC-200-FLOW-B",
+      "description": "Расходомер HC с наружной резьбой BSP 50 мм, измерение в м",
+      "page": 158,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "РАСХОДОМЕР HC",
+      "model": "W-HC-FLOW-AU",
+      "description": "Комплект беспроводного расходомера HC, включает передатчик и приемник (версия для Австралии и Новой Зеландии, 915 МГц)",
+      "page": 158,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "РАСХОДОМЕР HC",
+      "model": "W-HC-FLOW-INT",
+      "description": "Комплект беспроводного расходомера HC, включает передатчик и приемник (международная версия, 868 МГц)",
+      "page": 158,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДАТЧИК U-WAVE",
+      "model": "U-WAVE-100",
+      "description": "Ультразвуковой датчик расхода U-Wave, внутренняя резьба 1 дюйм (25 мм), показания в галлонах (США) либо в метрической системе Контроллер",
+      "page": 160,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДАТЧИК FLOW-CLIK",
+      "model": "FCT-208",
+      "description": "2\" (50 мм) 2\" (50 мм) тройник-сборник для датчика стандарта 80 3\" (80 мм)",
+      "page": 161,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДАТЧИК FLOW-CLIK",
+      "model": "FCT-400",
+      "description": "4\" (100 мм) тройник-сборник для датчика стандарта 40 В соответствии с общепринятыми нормами проектирования максимальная скорость потока не должна превышать 1,5 м/с. Рекомендуемая максимальная скорость потока указана для пластмассовой трубы IPS класса 200.",
+      "page": 161,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДАТЧИК FLOW-CLIK",
+      "model": "FLOW-CLIK",
+      "description": "1\" (25 мм) Стандартный комплект для всех контроллеров с питанием ~24 В. Включает в себя датчик и модуль интерфейса, 1½\" (40 мм) для установки датчика в трубе нужен тройник FCT. 2\" (50 мм) 3\" (80 мм)",
+      "page": 161,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДАТЧИК FLOW-SYNC",
+      "model": "FCT-100",
+      "description": "Датчик Hunter Flow-Sync для использования с контроллерами ACC2, MCC, ICC2, устаревшими моделями ACC и I-Core, а также декодерами Описание 1\" (25 мм) тройник-сборник для датчика стандарта 40",
+      "page": 162,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДАТЧИК WFS",
+      "model": "FCT-150",
+      "description": "1½\" (40 мм) тройник-сборник для датчика стандарта 40 (белого цвета)",
+      "page": 163,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДАТЧИК WFS",
+      "model": "FCT-158",
+      "description": "1½\" (40 мм) тройник-сборник для датчика стандарта 80 (серого цвета)",
+      "page": 163,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДАТЧИК WFS",
+      "model": "FCT-200",
+      "description": "2\" (50 мм) тройник-сборник для датчика стандарта 40 (белого цвета)",
+      "page": 163,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДАТЧИК WFS",
+      "model": "FCT-300",
+      "description": "3\" (80 мм) тройник-сборник для датчика стандарта 40 (белого цвета)",
+      "page": 163,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДАТЧИК WFS",
+      "model": "FCT-308",
+      "description": "3\" (80 мм) тройник-сборник для датчика стандарта 80 (серого цвета)",
+      "page": 163,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДАТЧИК WFS",
+      "model": "WFS-ALKBATT",
+      "description": "Щелочная батарея беспроводного датчика потока, с решеткой",
+      "page": 163,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДАТЧИК WFS",
+      "model": "WFS-INT",
+      "description": "Комплект беспроводного датчика расхода (международная версия, 868 МГц)",
+      "page": 163,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДАТЧИК WFS",
+      "model": "WFS-R-INT",
+      "description": "Приемник для комплекта беспроводного датчика расхода (международная версия, 868 МГц)",
+      "page": 163,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ДАТЧИК WFS",
+      "model": "WFS-T-INT",
+      "description": "Передатчик для комплекта беспроводного датчика расхода (международная версия, 868 МГц)",
+      "page": 163,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "КОМПЛЕКТ PCZ",
+      "model": "PCZ-101-25-B",
+      "description": "Расход воды в Клапан регулировки расхода PGV 1 дюйм (25 мм) системе с HFR, регулятором 1,7 бар (170 кПа) и выходом 3/4 дюйма",
+      "page": 168,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "КОМПЛЕКТ PCZ",
+      "model": "PCZ-101-40-B",
+      "description": "Клапан регулировки расхода PGV 1 дюйм (25 мм) с HFR, регулятором 2,8 бар (280 кПа) и выходом л/мин 3/4 дюйма",
+      "page": 168,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ФИЛЬТРЫ И РЕГУЛЯТОРЫ",
+      "model": "HFR-075-25",
+      "description": "Фильтр-регулятор, вход/выход 3/4\", 1,7 бар; 170 кПа",
+      "page": 169,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ФИЛЬТРЫ И РЕГУЛЯТОРЫ",
+      "model": "HFR-075-40",
+      "description": "Фильтр-регулятор, вход/выход 3/4\", 2,8 бар; 280 кПа",
+      "page": 169,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ФИЛЬТРЫ И РЕГУЛЯТОРЫ",
+      "model": "HY-075",
+      "description": "Сетчатый фильтр 3/4 дюйма со входом/выходом 3/4 дюйма",
+      "page": 169,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ФИЛЬТРЫ И РЕГУЛЯТОРЫ",
+      "model": "HY-100-D-BSP",
+      "description": "Дисковый фильтр с резьбой BSP 1 дюйм (25 мм), 10 бар (1000 кПа)",
+      "page": 169,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ФИЛЬТРЫ И РЕГУЛЯТОРЫ",
+      "model": "HY-151-D-BSP",
+      "description": "Дисковый фильтр с резьбой BSP 1½ дюйма (40 мм), 10 бар (1000 кПа)",
+      "page": 169,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ФИЛЬТРЫ И РЕГУЛЯТОРЫ",
+      "model": "HY-201-D-BSP",
+      "description": "Дисковый фильтр с резьбой BSP 2 дюйма (50 мм), 10 бар (1000 кПа)",
+      "page": 169,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ТРУБНЫЕ ВСТАВКИ PLD (16 ММ)",
+      "model": "PLD-050-16",
+      "description": "1/ 2\" (12 мм) MPT x трубная вставка 16 мм",
+      "page": 178,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ТРУБНЫЕ ВСТАВКИ PLD (16 ММ)",
+      "model": "PLD-075-16",
+      "description": "MPT 3/4 дюйма (19 мм) × трубная вставка 16 мм",
+      "page": 178,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ТРУБНЫЕ ВСТАВКИ PLD (16 ММ)",
+      "model": "PLD-BV-16",
+      "description": "Трубная вставка 16 мм х трубная вставка с шаровым краном",
+      "page": 178,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ТРУБНЫЕ ВСТАВКИ PLD (16 ММ)",
+      "model": "PLD-CPL-16",
+      "description": "Трубная вставка 16 мм x трубная вставка",
+      "page": 178,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ТРУБНЫЕ ВСТАВКИ PLD (16 ММ)",
+      "model": "PLD-ELB-16",
+      "description": "Трубная вставка 16 мм x колено с трубной вставкой",
+      "page": 178,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ТРУБНЫЕ ВСТАВКИ PLD (16 ММ)",
+      "model": "PLD-TEE-16",
+      "description": "Трубная вставка 16 мм х тройник с трубной вставкой",
+      "page": 178,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "СИСТЕМА ECO-MAT",
+      "model": "ECO-MAT-16",
+      "description": "Флисовое полотно PLD (16 мм) для капельного орошения, моток длиной 100 м",
+      "page": 181,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "СИСТЕМА ECO-MAT",
+      "model": "ECO-MAT-17",
+      "description": "Флисовое полотно PLD (17 мм) для капельного орошения, моток длиной 90 м СИСТЕМЫ ПОДЗЕМНОГО ПОЛИВА Газон 10–15 см",
+      "page": 181,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "СИСТЕМА ECO-WRAP",
+      "model": "ECO-WRAP-16",
+      "description": "Обернутая флисом капельная лента PLD (16 мм), моток длиной 100 м",
+      "page": 182,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "СИСТЕМА ECO-WRAP",
+      "model": "ECO-WRAP-17",
+      "description": "Обернутая флисом капельная трубка HDL (17 мм), моток длиной 75 м",
+      "page": 182,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ИНДИКАТОР ECO-INDICATOR",
+      "model": "ECO-ID",
+      "description": "Eco-Indicator 15 см",
+      "page": 183,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ИНДИКАТОР ECO-INDICATOR",
+      "model": "ECO-ID-12",
+      "description": "Eco-Indicator 30 см Eco-Indicator 30 см, для технической воды",
+      "page": 183,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ТРУБКИ ДЛЯ ПОДАЧИ ВОДЫ",
+      "model": "TWPE-700-100",
+      "description": "Полиэтиленовая трубка 1/ 2\" – 30 м",
+      "page": 184,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ТРУБКИ ДЛЯ ПОДАЧИ ВОДЫ",
+      "model": "TWPE-700-250",
+      "description": "Полиэтиленовая трубка 1/ 2\" – 75 м",
+      "page": 184,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ТРУБКИ ДЛЯ ПОДАЧИ ВОДЫ",
+      "model": "TWPE-700-500",
+      "description": "Полиэтиленовая трубка 1/ 2\" – 150 м",
+      "page": 184,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ШТАНГИ IH",
+      "model": "IH-250",
+      "description": "(9,5 мм) × ½ дюйма (12 мм) Длина гибкого шланга из ПВХ для полива 75 м или Red Hot Clear Primer (только для фитингов) (не предназначен для шлангов из ПВХ)",
+      "page": 191,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ШТАНГИ IH",
+      "model": "IH-FIT-3850",
+      "description": "Фитинг IH: MPT ⅜ дюйма (9,5 мм) × ½ дюйма (12 мм) Фитинг IH (для технической воды): MPT ⅜ дюйма",
+      "page": 191,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "ШТАНГИ IH",
+      "model": "SCREEN-CV",
+      "description": "Сетчатый фильтр с обратным клапаном для линии 3,6 м",
+      "page": 191,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "МНОГОПОРТОВЫЕ КАПЕЛЬНИЦЫ",
+      "model": "RR12",
+      "description": "Жесткая штанга 30 см",
+      "page": 192,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "МНОГОПОРТОВЫЕ КАПЕЛЬНИЦЫ",
+      "model": "RR12-B",
+      "description": "Жесткая штанга 30 см с основой с трубной вставкой 6 мм",
+      "page": 192,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "МНОГОПОРТОВЫЕ КАПЕЛЬНИЦЫ",
+      "model": "RR12-T",
+      "description": "Жесткая штанга 30 см с резьбовой основой ½\"",
+      "page": 192,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "УНИВЕРСАЛЬНЫЙ КОРПУС",
+      "model": "MB-0811",
+      "description": "Универсальный корпус со стандартной крышкой коричневого цвета",
+      "page": 194,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "УНИВЕРСАЛЬНЫЙ КОРПУС",
+      "model": "MB-0811-B",
+      "description": "Универсальный корпус с крышкой черного цвета",
+      "page": 194,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "УНИВЕРСАЛЬНЫЙ КОРПУС",
+      "model": "MB-0811-G",
+      "description": "Универсальный корпус с крышкой зеленого цвета",
+      "page": 194,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "УНИВЕРСАЛЬНЫЙ КОРПУС",
+      "model": "MB-0811-T",
+      "description": "Универсальный корпус с крышкой песочного цвета Универсальный корпус с крышкой фиолетового цвета",
+      "page": 194,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "УНИВЕРСАЛЬНЫЙ КОРПУС",
+      "model": "MB-BOX",
+      "description": "Универсальный корпус (только корпус)",
+      "page": 194,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "УНИВЕРСАЛЬНЫЙ КОРПУС",
+      "model": "MB-LID",
+      "description": "Универсальный корпус (только крышка), коричневого цвета",
+      "page": 194,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "УНИВЕРСАЛЬНЫЙ КОРПУС",
+      "model": "MB-LID-B",
+      "description": "Универсальный корпус (только крышка), фиолетового цвета Универсальный корпус (только крышка), черного цвета",
+      "page": 194,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "УНИВЕРСАЛЬНЫЙ КОРПУС",
+      "model": "MB-LID-G",
+      "description": "Универсальный корпус (только крышка), зеленого цвета",
+      "page": 194,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    },
+    {
+      "section": "УНИВЕРСАЛЬНЫЙ КОРПУС",
+      "model": "MB-LID-T",
+      "description": "Универсальный корпус (только крышка), песочного цвета",
+      "page": 194,
+      "sourceFile": "00-RC-001-CA-Vol41-HunterCatalog-RU-125-228.pdf"
+    }
+  ]
+}

@@ -1,0 +1,2836 @@
+{
+ "note": "Учебные задания тренажёра раскладки (§3.4 ТЗ). Собраны скриптом scripts/build-layout-tasks.ts: эталонные раскладки генерируются и тут же проверяются расчётным движком. Поле qaVerified вычислено, а не проставлено.",
+ "collectedAt": "2026-08-30",
+ "qaCellSizeM": 0.25,
+ "tasks": [
+  {
+   "key": "layout-rect-small",
+   "title": "Прямоугольный газон 12 × 8",
+   "brief": "Простой прямоугольный газон без препятствий. Задача — закрыть его целиком, соблюдая перекрытие «голова в голову».",
+   "difficulty": 1,
+   "lesson": "На прямоугольнике достаточно поставить головы по углам и по серединам длинных сторон с шагом, равным радиусу. Угловая голова получает четверть круга, краевая — половину, и расход у них пропорционален сектору.",
+   "plan": {
+    "boundary": {
+     "points": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 12,
+       "y": 0
+      },
+      {
+       "x": 12,
+       "y": 8
+      },
+      {
+       "x": 0,
+       "y": 8
+      }
+     ]
+    },
+    "obstacles": [],
+    "plantings": [
+     {
+      "kind": "lawn",
+      "polygon": {
+       "points": [
+        {
+         "x": 0,
+         "y": 0
+        },
+        {
+         "x": 12,
+         "y": 0
+        },
+        {
+         "x": 12,
+         "y": 8
+        },
+        {
+         "x": 0,
+         "y": 8
+        }
+       ]
+      }
+     }
+    ],
+    "sourceFlowM3h": 3,
+    "workingPressureBar": 3
+   },
+   "reference": [
+    {
+     "id": "h1",
+     "position": {
+      "x": 0.21,
+      "y": 0.19
+     },
+     "radiusM": 4.4,
+     "startDeg": 351,
+     "sweepDeg": 110,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 92,
+     "model": "Роторное сопло 6 м"
+    },
+    {
+     "id": "h2",
+     "position": {
+      "x": 4.08,
+      "y": 0.22
+     },
+     "radiusM": 4.4,
+     "startDeg": 350,
+     "sweepDeg": 201,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 168,
+     "model": "Роторное сопло 6 м"
+    },
+    {
+     "id": "h3",
+     "position": {
+      "x": 7.92,
+      "y": 0.22
+     },
+     "radiusM": 4.4,
+     "startDeg": 350,
+     "sweepDeg": 201,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 168,
+     "model": "Роторное сопло 6 м"
+    },
+    {
+     "id": "h4",
+     "position": {
+      "x": 11.79,
+      "y": 0.19
+     },
+     "radiusM": 4.4,
+     "startDeg": 80,
+     "sweepDeg": 110,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 92,
+     "model": "Роторное сопло 6 м"
+    },
+    {
+     "id": "h5",
+     "position": {
+      "x": 0.23,
+      "y": 4
+     },
+     "radiusM": 4.4,
+     "startDeg": 259,
+     "sweepDeg": 203,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 169,
+     "model": "Роторное сопло 6 м"
+    },
+    {
+     "id": "h6",
+     "position": {
+      "x": 4.05,
+      "y": 4
+     },
+     "radiusM": 4.4,
+     "startDeg": 0,
+     "sweepDeg": 360,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 300,
+     "model": "Роторное сопло 6 м"
+    },
+    {
+     "id": "h7",
+     "position": {
+      "x": 7.95,
+      "y": 4
+     },
+     "radiusM": 4.4,
+     "startDeg": 0,
+     "sweepDeg": 360,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 300,
+     "model": "Роторное сопло 6 м"
+    },
+    {
+     "id": "h8",
+     "position": {
+      "x": 11.85,
+      "y": 4
+     },
+     "radiusM": 4.4,
+     "startDeg": 82,
+     "sweepDeg": 197,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 164,
+     "model": "Роторное сопло 6 м"
+    },
+    {
+     "id": "h9",
+     "position": {
+      "x": 0.21,
+      "y": 7.81
+     },
+     "radiusM": 4.4,
+     "startDeg": 260,
+     "sweepDeg": 110,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 92,
+     "model": "Роторное сопло 6 м"
+    },
+    {
+     "id": "h10",
+     "position": {
+      "x": 4.05,
+      "y": 7.85
+     },
+     "radiusM": 4.4,
+     "startDeg": 172,
+     "sweepDeg": 197,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 164,
+     "model": "Роторное сопло 6 м"
+    },
+    {
+     "id": "h11",
+     "position": {
+      "x": 7.95,
+      "y": 7.85
+     },
+     "radiusM": 4.4,
+     "startDeg": 172,
+     "sweepDeg": 197,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 164,
+     "model": "Роторное сопло 6 м"
+    },
+    {
+     "id": "h12",
+     "position": {
+      "x": 11.85,
+      "y": 7.85
+     },
+     "radiusM": 4.4,
+     "startDeg": 172,
+     "sweepDeg": 107,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 89,
+     "model": "Роторное сопло 6 м"
+    }
+   ],
+   "qaVerified": true,
+   "qaNotes": "Эталон проверен расчётным движком при ячейке 0,25 м: покрытие 100,0 %, оценка 0,93, голов 12, расход 1,96 м³/ч (65 % дебита), полив мимо цели 14,0 м². Предупреждений нет.",
+   "qa": {
+    "coverageRatio": 1,
+    "score": 0.93,
+    "heads": 12,
+    "zoneFlowM3h": 1.962,
+    "sourceUtilisation": 0.654,
+    "wastedAreaM2": 14,
+    "warnings": []
+   },
+   "areaM2": 96
+  },
+  {
+   "key": "layout-strip",
+   "title": "Полоса вдоль дорожки 16 × 3",
+   "brief": "Узкая полоса газона между дорожкой и забором. Роторы сюда не подойдут — у них минимальный радиус больше ширины полосы.",
+   "difficulty": 2,
+   "lesson": "Узкая полоса требует малого радиуса: спрей с радиусом до 5 м закрывает такую геометрию, а ротор лил бы на дорожку и за забор.",
+   "plan": {
+    "boundary": {
+     "points": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 3
+      },
+      {
+       "x": 0,
+       "y": 3
+      }
+     ]
+    },
+    "obstacles": [],
+    "plantings": [
+     {
+      "kind": "lawn",
+      "polygon": {
+       "points": [
+        {
+         "x": 0,
+         "y": 0
+        },
+        {
+         "x": 16,
+         "y": 0
+        },
+        {
+         "x": 16,
+         "y": 3
+        },
+        {
+         "x": 0,
+         "y": 3
+        }
+       ]
+      }
+     }
+    ],
+    "sourceFlowM3h": 2.5,
+    "workingPressureBar": 2.1
+   },
+   "reference": [
+    {
+     "id": "h1",
+     "position": {
+      "x": 0.22,
+      "y": 0.16
+     },
+     "radiusM": 3.2,
+     "startDeg": 350,
+     "sweepDeg": 113,
+     "emitterClass": "spray",
+     "flowLph": 82,
+     "model": "Спрей 3 м"
+    },
+    {
+     "id": "h2",
+     "position": {
+      "x": 3.36,
+      "y": 0.17
+     },
+     "radiusM": 3.2,
+     "startDeg": 349,
+     "sweepDeg": 203,
+     "emitterClass": "spray",
+     "flowLph": 147,
+     "model": "Спрей 3 м"
+    },
+    {
+     "id": "h3",
+     "position": {
+      "x": 6.49,
+      "y": 0.2
+     },
+     "radiusM": 3.2,
+     "startDeg": 348,
+     "sweepDeg": 205,
+     "emitterClass": "spray",
+     "flowLph": 148,
+     "model": "Спрей 3 м"
+    },
+    {
+     "id": "h4",
+     "position": {
+      "x": 9.51,
+      "y": 0.2
+     },
+     "radiusM": 3.2,
+     "startDeg": 348,
+     "sweepDeg": 205,
+     "emitterClass": "spray",
+     "flowLph": 148,
+     "model": "Спрей 3 м"
+    },
+    {
+     "id": "h5",
+     "position": {
+      "x": 12.64,
+      "y": 0.17
+     },
+     "radiusM": 3.2,
+     "startDeg": 349,
+     "sweepDeg": 203,
+     "emitterClass": "spray",
+     "flowLph": 147,
+     "model": "Спрей 3 м"
+    },
+    {
+     "id": "h6",
+     "position": {
+      "x": 15.78,
+      "y": 0.16
+     },
+     "radiusM": 3.2,
+     "startDeg": 78,
+     "sweepDeg": 113,
+     "emitterClass": "spray",
+     "flowLph": 82,
+     "model": "Спрей 3 м"
+    },
+    {
+     "id": "h7",
+     "position": {
+      "x": 0.22,
+      "y": 2.84
+     },
+     "radiusM": 3.2,
+     "startDeg": 258,
+     "sweepDeg": 113,
+     "emitterClass": "spray",
+     "flowLph": 82,
+     "model": "Спрей 3 м"
+    },
+    {
+     "id": "h8",
+     "position": {
+      "x": 3.36,
+      "y": 2.83
+     },
+     "radiusM": 3.2,
+     "startDeg": 169,
+     "sweepDeg": 203,
+     "emitterClass": "spray",
+     "flowLph": 147,
+     "model": "Спрей 3 м"
+    },
+    {
+     "id": "h9",
+     "position": {
+      "x": 6.49,
+      "y": 2.8
+     },
+     "radiusM": 3.2,
+     "startDeg": 168,
+     "sweepDeg": 205,
+     "emitterClass": "spray",
+     "flowLph": 148,
+     "model": "Спрей 3 м"
+    },
+    {
+     "id": "h10",
+     "position": {
+      "x": 9.51,
+      "y": 2.8
+     },
+     "radiusM": 3.2,
+     "startDeg": 168,
+     "sweepDeg": 205,
+     "emitterClass": "spray",
+     "flowLph": 148,
+     "model": "Спрей 3 м"
+    },
+    {
+     "id": "h11",
+     "position": {
+      "x": 12.64,
+      "y": 2.83
+     },
+     "radiusM": 3.2,
+     "startDeg": 169,
+     "sweepDeg": 203,
+     "emitterClass": "spray",
+     "flowLph": 147,
+     "model": "Спрей 3 м"
+    },
+    {
+     "id": "h12",
+     "position": {
+      "x": 15.78,
+      "y": 2.84
+     },
+     "radiusM": 3.2,
+     "startDeg": 170,
+     "sweepDeg": 113,
+     "emitterClass": "spray",
+     "flowLph": 82,
+     "model": "Спрей 3 м"
+    }
+   ],
+   "qaVerified": true,
+   "qaNotes": "Эталон проверен расчётным движком при ячейке 0,25 м: покрытие 100,0 %, оценка 0,88, голов 12, расход 1,51 м³/ч (60 % дебита), полив мимо цели 11,8 м². Предупреждений нет.",
+   "qa": {
+    "coverageRatio": 1,
+    "score": 0.88,
+    "heads": 12,
+    "zoneFlowM3h": 1.508,
+    "sourceUtilisation": 0.603,
+    "wastedAreaM2": 11.8,
+    "warnings": []
+   },
+   "areaM2": 48
+  },
+  {
+   "key": "layout-square-medium",
+   "title": "Квадратный газон 16 × 16",
+   "brief": "Открытый квадрат среднего размера. Проверьте, укладывается ли расход зоны в 80 % дебита источника.",
+   "difficulty": 2,
+   "lesson": "На большом газоне выгоднее роторы: они закрывают ту же площадь меньшим числом голов. Но расход зоны надо сверять с дебитом — правило 80 процентов.",
+   "plan": {
+    "boundary": {
+     "points": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 16
+      },
+      {
+       "x": 0,
+       "y": 16
+      }
+     ]
+    },
+    "obstacles": [],
+    "plantings": [
+     {
+      "kind": "lawn",
+      "polygon": {
+       "points": [
+        {
+         "x": 0,
+         "y": 0
+        },
+        {
+         "x": 16,
+         "y": 0
+        },
+        {
+         "x": 16,
+         "y": 16
+        },
+        {
+         "x": 0,
+         "y": 16
+        }
+       ]
+      }
+     }
+    ],
+    "sourceFlowM3h": 6.5,
+    "workingPressureBar": 3.5
+   },
+   "reference": [
+    {
+     "id": "h1",
+     "position": {
+      "x": 0.2,
+      "y": 0.2
+     },
+     "radiusM": 6,
+     "startDeg": 352,
+     "sweepDeg": 107,
+     "emitterClass": "rotor",
+     "flowLph": 155,
+     "model": "Ротор 8 м"
+    },
+    {
+     "id": "h2",
+     "position": {
+      "x": 5.4,
+      "y": 0.22
+     },
+     "radiusM": 6,
+     "startDeg": 351,
+     "sweepDeg": 199,
+     "emitterClass": "rotor",
+     "flowLph": 287,
+     "model": "Ротор 8 м"
+    },
+    {
+     "id": "h3",
+     "position": {
+      "x": 10.6,
+      "y": 0.22
+     },
+     "radiusM": 6,
+     "startDeg": 351,
+     "sweepDeg": 199,
+     "emitterClass": "rotor",
+     "flowLph": 287,
+     "model": "Ротор 8 м"
+    },
+    {
+     "id": "h4",
+     "position": {
+      "x": 15.8,
+      "y": 0.2
+     },
+     "radiusM": 6,
+     "startDeg": 82,
+     "sweepDeg": 107,
+     "emitterClass": "rotor",
+     "flowLph": 155,
+     "model": "Ротор 8 м"
+    },
+    {
+     "id": "h5",
+     "position": {
+      "x": 0.22,
+      "y": 5.4
+     },
+     "radiusM": 6,
+     "startDeg": 261,
+     "sweepDeg": 199,
+     "emitterClass": "rotor",
+     "flowLph": 287,
+     "model": "Ротор 8 м"
+    },
+    {
+     "id": "h6",
+     "position": {
+      "x": 5.38,
+      "y": 5.38
+     },
+     "radiusM": 6,
+     "startDeg": 0,
+     "sweepDeg": 360,
+     "emitterClass": "rotor",
+     "flowLph": 520,
+     "model": "Ротор 8 м"
+    },
+    {
+     "id": "h7",
+     "position": {
+      "x": 10.62,
+      "y": 5.38
+     },
+     "radiusM": 6,
+     "startDeg": 0,
+     "sweepDeg": 360,
+     "emitterClass": "rotor",
+     "flowLph": 520,
+     "model": "Ротор 8 м"
+    },
+    {
+     "id": "h8",
+     "position": {
+      "x": 15.85,
+      "y": 5.38
+     },
+     "radiusM": 6,
+     "startDeg": 83,
+     "sweepDeg": 195,
+     "emitterClass": "rotor",
+     "flowLph": 282,
+     "model": "Ротор 8 м"
+    },
+    {
+     "id": "h9",
+     "position": {
+      "x": 0.22,
+      "y": 10.6
+     },
+     "radiusM": 6,
+     "startDeg": 261,
+     "sweepDeg": 199,
+     "emitterClass": "rotor",
+     "flowLph": 287,
+     "model": "Ротор 8 м"
+    },
+    {
+     "id": "h10",
+     "position": {
+      "x": 5.38,
+      "y": 10.62
+     },
+     "radiusM": 6,
+     "startDeg": 0,
+     "sweepDeg": 360,
+     "emitterClass": "rotor",
+     "flowLph": 520,
+     "model": "Ротор 8 м"
+    },
+    {
+     "id": "h11",
+     "position": {
+      "x": 10.62,
+      "y": 10.62
+     },
+     "radiusM": 6,
+     "startDeg": 0,
+     "sweepDeg": 360,
+     "emitterClass": "rotor",
+     "flowLph": 520,
+     "model": "Ротор 8 м"
+    },
+    {
+     "id": "h12",
+     "position": {
+      "x": 15.85,
+      "y": 10.62
+     },
+     "radiusM": 6,
+     "startDeg": 83,
+     "sweepDeg": 195,
+     "emitterClass": "rotor",
+     "flowLph": 282,
+     "model": "Ротор 8 м"
+    },
+    {
+     "id": "h13",
+     "position": {
+      "x": 0.2,
+      "y": 15.8
+     },
+     "radiusM": 6,
+     "startDeg": 262,
+     "sweepDeg": 107,
+     "emitterClass": "rotor",
+     "flowLph": 155,
+     "model": "Ротор 8 м"
+    },
+    {
+     "id": "h14",
+     "position": {
+      "x": 5.38,
+      "y": 15.85
+     },
+     "radiusM": 6,
+     "startDeg": 173,
+     "sweepDeg": 195,
+     "emitterClass": "rotor",
+     "flowLph": 282,
+     "model": "Ротор 8 м"
+    },
+    {
+     "id": "h15",
+     "position": {
+      "x": 10.62,
+      "y": 15.85
+     },
+     "radiusM": 6,
+     "startDeg": 173,
+     "sweepDeg": 195,
+     "emitterClass": "rotor",
+     "flowLph": 282,
+     "model": "Ротор 8 м"
+    },
+    {
+     "id": "h16",
+     "position": {
+      "x": 15.85,
+      "y": 15.85
+     },
+     "radiusM": 6,
+     "startDeg": 173,
+     "sweepDeg": 105,
+     "emitterClass": "rotor",
+     "flowLph": 152,
+     "model": "Ротор 8 м"
+    }
+   ],
+   "qaVerified": true,
+   "qaNotes": "Эталон проверен расчётным движком при ячейке 0,25 м: покрытие 100,0 %, оценка 0,94, голов 16, расход 4,97 м³/ч (77 % дебита), полив мимо цели 29,8 м². Предупреждений нет.",
+   "qa": {
+    "coverageRatio": 1,
+    "score": 0.94,
+    "heads": 16,
+    "zoneFlowM3h": 4.973,
+    "sourceUtilisation": 0.765,
+    "wastedAreaM2": 29.8,
+    "warnings": []
+   },
+   "areaM2": 256
+  },
+  {
+   "key": "layout-house",
+   "title": "Газон вокруг дома",
+   "brief": "Дом стоит внутри участка. Поливать по нему нельзя, а газон вокруг должен быть закрыт целиком.",
+   "difficulty": 3,
+   "lesson": "Препятствие в середине участка заставляет обходить его головами по периметру. Головы вплотную к стене дома дают сектор, смотрящий от неё.",
+   "plan": {
+    "boundary": {
+     "points": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 20,
+       "y": 0
+      },
+      {
+       "x": 20,
+       "y": 14
+      },
+      {
+       "x": 0,
+       "y": 14
+      }
+     ]
+    },
+    "obstacles": [
+     {
+      "kind": "house",
+      "polygon": {
+       "points": [
+        {
+         "x": 6,
+         "y": 4
+        },
+        {
+         "x": 14,
+         "y": 4
+        },
+        {
+         "x": 14,
+         "y": 10
+        },
+        {
+         "x": 6,
+         "y": 10
+        }
+       ]
+      },
+      "label": "Дом"
+     }
+    ],
+    "plantings": [
+     {
+      "kind": "lawn",
+      "polygon": {
+       "points": [
+        {
+         "x": 0,
+         "y": 0
+        },
+        {
+         "x": 20,
+         "y": 0
+        },
+        {
+         "x": 20,
+         "y": 14
+        },
+        {
+         "x": 0,
+         "y": 14
+        }
+       ]
+      }
+     }
+    ],
+    "sourceFlowM3h": 4,
+    "workingPressureBar": 3
+   },
+   "reference": [
+    {
+     "id": "h1",
+     "position": {
+      "x": 0.21,
+      "y": 0.19
+     },
+     "radiusM": 5,
+     "startDeg": 351,
+     "sweepDeg": 109,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 97,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h2",
+     "position": {
+      "x": 5.12,
+      "y": 0.21
+     },
+     "radiusM": 5,
+     "startDeg": 351,
+     "sweepDeg": 199,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 177,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h3",
+     "position": {
+      "x": 10,
+      "y": 0.23
+     },
+     "radiusM": 5,
+     "startDeg": 350,
+     "sweepDeg": 201,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 179,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h4",
+     "position": {
+      "x": 14.89,
+      "y": 0.21
+     },
+     "radiusM": 5,
+     "startDeg": 351,
+     "sweepDeg": 199,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 177,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h5",
+     "position": {
+      "x": 19.79,
+      "y": 0.19
+     },
+     "radiusM": 5,
+     "startDeg": 81,
+     "sweepDeg": 109,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 97,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h6",
+     "position": {
+      "x": 0.22,
+      "y": 4.74
+     },
+     "radiusM": 5,
+     "startDeg": 260,
+     "sweepDeg": 201,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 179,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h7",
+     "position": {
+      "x": 5.08,
+      "y": 4.72
+     },
+     "radiusM": 5,
+     "startDeg": 64,
+     "sweepDeg": 285,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 253,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h8",
+     "position": {
+      "x": 14.93,
+      "y": 4.72
+     },
+     "radiusM": 5,
+     "startDeg": 192,
+     "sweepDeg": 285,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 253,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h9",
+     "position": {
+      "x": 19.78,
+      "y": 4.74
+     },
+     "radiusM": 5,
+     "startDeg": 80,
+     "sweepDeg": 201,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 179,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h10",
+     "position": {
+      "x": 0.22,
+      "y": 9.26
+     },
+     "radiusM": 5,
+     "startDeg": 260,
+     "sweepDeg": 201,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 179,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h11",
+     "position": {
+      "x": 5.08,
+      "y": 9.28
+     },
+     "radiusM": 5,
+     "startDeg": 12,
+     "sweepDeg": 285,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 253,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h12",
+     "position": {
+      "x": 14.93,
+      "y": 9.28
+     },
+     "radiusM": 5,
+     "startDeg": 244,
+     "sweepDeg": 285,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 253,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h13",
+     "position": {
+      "x": 19.78,
+      "y": 9.26
+     },
+     "radiusM": 5,
+     "startDeg": 80,
+     "sweepDeg": 201,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 179,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h14",
+     "position": {
+      "x": 0.21,
+      "y": 13.81
+     },
+     "radiusM": 5,
+     "startDeg": 261,
+     "sweepDeg": 109,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 97,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h15",
+     "position": {
+      "x": 5.08,
+      "y": 13.85
+     },
+     "radiusM": 5,
+     "startDeg": 172,
+     "sweepDeg": 197,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 175,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h16",
+     "position": {
+      "x": 10,
+      "y": 13.85
+     },
+     "radiusM": 5,
+     "startDeg": 172,
+     "sweepDeg": 197,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 175,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h17",
+     "position": {
+      "x": 14.93,
+      "y": 13.85
+     },
+     "radiusM": 5,
+     "startDeg": 172,
+     "sweepDeg": 197,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 175,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h18",
+     "position": {
+      "x": 19.79,
+      "y": 13.81
+     },
+     "radiusM": 5,
+     "startDeg": 171,
+     "sweepDeg": 109,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 97,
+     "model": "Роторное сопло 5 м"
+    }
+   ],
+   "qaVerified": true,
+   "qaNotes": "Эталон проверен расчётным движком при ячейке 0,25 м: покрытие 100,0 %, оценка 0,84, голов 18, расход 3,17 м³/ч (79 % дебита), полив мимо цели 49,7 м². Предупреждения: layout-watering-obstacles.",
+   "qa": {
+    "coverageRatio": 1,
+    "score": 0.84,
+    "heads": 18,
+    "zoneFlowM3h": 3.174,
+    "sourceUtilisation": 0.794,
+    "wastedAreaM2": 49.7,
+    "warnings": [
+     "layout-watering-obstacles"
+    ]
+   },
+   "areaM2": 280
+  },
+  {
+   "key": "layout-path",
+   "title": "Дорожка вдоль газона",
+   "brief": "Мощёная дорожка идёт вдоль края участка. Поливать её не нужно: мокрая плитка скользит и зеленеет, а зимой на ней образуется лёд.",
+   "difficulty": 3,
+   "lesson": "Дорожку вдоль края обходят сектором: головы ближнего ряда отворачивают факел от плитки. Полностью сухой она не будет — соседние головы частично достают, — но основной полив уходит на газон.",
+   "plan": {
+    "boundary": {
+     "points": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 18,
+       "y": 0
+      },
+      {
+       "x": 18,
+       "y": 12
+      },
+      {
+       "x": 0,
+       "y": 12
+      }
+     ]
+    },
+    "obstacles": [
+     {
+      "kind": "path",
+      "polygon": {
+       "points": [
+        {
+         "x": 0,
+         "y": 0
+        },
+        {
+         "x": 18,
+         "y": 0
+        },
+        {
+         "x": 18,
+         "y": 2
+        },
+        {
+         "x": 0,
+         "y": 2
+        }
+       ]
+      },
+      "label": "Дорожка"
+     }
+    ],
+    "plantings": [
+     {
+      "kind": "lawn",
+      "polygon": {
+       "points": [
+        {
+         "x": 0,
+         "y": 0
+        },
+        {
+         "x": 18,
+         "y": 0
+        },
+        {
+         "x": 18,
+         "y": 12
+        },
+        {
+         "x": 0,
+         "y": 12
+        }
+       ]
+      }
+     }
+    ],
+    "sourceFlowM3h": 4.5,
+    "workingPressureBar": 3
+   },
+   "reference": [
+    {
+     "id": "h1",
+     "position": {
+      "x": 0.22,
+      "y": 4.07
+     },
+     "radiusM": 5,
+     "startDeg": 300,
+     "sweepDeg": 161,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 143,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h2",
+     "position": {
+      "x": 4.58,
+      "y": 4.05
+     },
+     "radiusM": 5,
+     "startDeg": 300,
+     "sweepDeg": 301,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 268,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h3",
+     "position": {
+      "x": 9,
+      "y": 4.05
+     },
+     "radiusM": 5,
+     "startDeg": 300,
+     "sweepDeg": 301,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 268,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h4",
+     "position": {
+      "x": 13.43,
+      "y": 4.05
+     },
+     "radiusM": 5,
+     "startDeg": 300,
+     "sweepDeg": 301,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 268,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h5",
+     "position": {
+      "x": 17.78,
+      "y": 4.07
+     },
+     "radiusM": 5,
+     "startDeg": 80,
+     "sweepDeg": 161,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 143,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h6",
+     "position": {
+      "x": 0.22,
+      "y": 7.93
+     },
+     "radiusM": 5,
+     "startDeg": 260,
+     "sweepDeg": 201,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 179,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h7",
+     "position": {
+      "x": 4.58,
+      "y": 7.95
+     },
+     "radiusM": 5,
+     "startDeg": 0,
+     "sweepDeg": 360,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 320,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h8",
+     "position": {
+      "x": 9,
+      "y": 7.95
+     },
+     "radiusM": 5,
+     "startDeg": 0,
+     "sweepDeg": 360,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 320,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h9",
+     "position": {
+      "x": 13.43,
+      "y": 7.95
+     },
+     "radiusM": 5,
+     "startDeg": 0,
+     "sweepDeg": 360,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 320,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h10",
+     "position": {
+      "x": 17.78,
+      "y": 7.93
+     },
+     "radiusM": 5,
+     "startDeg": 80,
+     "sweepDeg": 201,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 179,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h11",
+     "position": {
+      "x": 0.21,
+      "y": 11.81
+     },
+     "radiusM": 5,
+     "startDeg": 261,
+     "sweepDeg": 109,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 97,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h12",
+     "position": {
+      "x": 4.58,
+      "y": 11.85
+     },
+     "radiusM": 5,
+     "startDeg": 172,
+     "sweepDeg": 197,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 175,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h13",
+     "position": {
+      "x": 9,
+      "y": 11.85
+     },
+     "radiusM": 5,
+     "startDeg": 172,
+     "sweepDeg": 197,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 175,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h14",
+     "position": {
+      "x": 13.43,
+      "y": 11.85
+     },
+     "radiusM": 5,
+     "startDeg": 172,
+     "sweepDeg": 197,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 175,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h15",
+     "position": {
+      "x": 17.79,
+      "y": 11.81
+     },
+     "radiusM": 5,
+     "startDeg": 171,
+     "sweepDeg": 109,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 97,
+     "model": "Роторное сопло 5 м"
+    }
+   ],
+   "qaVerified": true,
+   "qaNotes": "Эталон проверен расчётным движком при ячейке 0,25 м: покрытие 100,0 %, оценка 0,81, голов 15, расход 3,13 м³/ч (70 % дебита), полив мимо цели 50,8 м². Предупреждения: layout-watering-obstacles.",
+   "qa": {
+    "coverageRatio": 1,
+    "score": 0.81,
+    "heads": 15,
+    "zoneFlowM3h": 3.127,
+    "sourceUtilisation": 0.695,
+    "wastedAreaM2": 50.8,
+    "warnings": [
+     "layout-watering-obstacles"
+    ]
+   },
+   "areaM2": 216
+  },
+  {
+   "key": "layout-l-shape",
+   "title": "L-образный участок",
+   "brief": "Невыпуклый контур: вырезанный угол легко оставить сухим или наоборот залить соседний участок.",
+   "difficulty": 3,
+   "lesson": "У невыпуклого контура внутренний угол требует отдельного внимания: там сходятся сразу две кромки, и сектор головы приходится подбирать точнее.",
+   "plan": {
+    "boundary": {
+     "points": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 18,
+       "y": 0
+      },
+      {
+       "x": 18,
+       "y": 8
+      },
+      {
+       "x": 8,
+       "y": 8
+      },
+      {
+       "x": 8,
+       "y": 16
+      },
+      {
+       "x": 0,
+       "y": 16
+      }
+     ]
+    },
+    "obstacles": [],
+    "plantings": [
+     {
+      "kind": "lawn",
+      "polygon": {
+       "points": [
+        {
+         "x": 0,
+         "y": 0
+        },
+        {
+         "x": 18,
+         "y": 0
+        },
+        {
+         "x": 18,
+         "y": 8
+        },
+        {
+         "x": 8,
+         "y": 8
+        },
+        {
+         "x": 8,
+         "y": 16
+        },
+        {
+         "x": 0,
+         "y": 16
+        }
+       ]
+      }
+     }
+    ],
+    "sourceFlowM3h": 4,
+    "workingPressureBar": 3
+   },
+   "reference": [
+    {
+     "id": "h1",
+     "position": {
+      "x": 0.21,
+      "y": 0.2
+     },
+     "radiusM": 5,
+     "startDeg": 351,
+     "sweepDeg": 109,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 97,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h2",
+     "position": {
+      "x": 4.61,
+      "y": 0.22
+     },
+     "radiusM": 5,
+     "startDeg": 350,
+     "sweepDeg": 201,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 179,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h3",
+     "position": {
+      "x": 9,
+      "y": 0.22
+     },
+     "radiusM": 5,
+     "startDeg": 350,
+     "sweepDeg": 201,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 179,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h4",
+     "position": {
+      "x": 13.39,
+      "y": 0.21
+     },
+     "radiusM": 5,
+     "startDeg": 351,
+     "sweepDeg": 199,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 177,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h5",
+     "position": {
+      "x": 17.79,
+      "y": 0.2
+     },
+     "radiusM": 5,
+     "startDeg": 81,
+     "sweepDeg": 109,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 97,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h6",
+     "position": {
+      "x": 0.22,
+      "y": 5.4
+     },
+     "radiusM": 5,
+     "startDeg": 260,
+     "sweepDeg": 201,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 179,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h7",
+     "position": {
+      "x": 4.58,
+      "y": 5.38
+     },
+     "radiusM": 5,
+     "startDeg": 0,
+     "sweepDeg": 360,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 320,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h8",
+     "position": {
+      "x": 9,
+      "y": 5.38
+     },
+     "radiusM": 5,
+     "startDeg": 0,
+     "sweepDeg": 360,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 320,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h9",
+     "position": {
+      "x": 13.43,
+      "y": 5.38
+     },
+     "radiusM": 5,
+     "startDeg": 0,
+     "sweepDeg": 360,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 320,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h10",
+     "position": {
+      "x": 17.78,
+      "y": 5.4
+     },
+     "radiusM": 5,
+     "startDeg": 80,
+     "sweepDeg": 201,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 179,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h11",
+     "position": {
+      "x": 0.22,
+      "y": 10.6
+     },
+     "radiusM": 5,
+     "startDeg": 260,
+     "sweepDeg": 201,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 179,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h12",
+     "position": {
+      "x": 4.58,
+      "y": 10.62
+     },
+     "radiusM": 5,
+     "startDeg": 0,
+     "sweepDeg": 360,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 320,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h13",
+     "position": {
+      "x": 0.21,
+      "y": 15.8
+     },
+     "radiusM": 5,
+     "startDeg": 261,
+     "sweepDeg": 109,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 97,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h14",
+     "position": {
+      "x": 4.58,
+      "y": 15.85
+     },
+     "radiusM": 5,
+     "startDeg": 172,
+     "sweepDeg": 197,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 175,
+     "model": "Роторное сопло 5 м"
+    }
+   ],
+   "qaVerified": true,
+   "qaNotes": "Эталон проверен расчётным движком при ячейке 0,25 м: покрытие 100,0 %, оценка 0,82, голов 14, расход 2,82 м³/ч (71 % дебита), полив мимо цели 52,3 м². Предупреждения: layout-watering-outside.",
+   "qa": {
+    "coverageRatio": 1,
+    "score": 0.82,
+    "heads": 14,
+    "zoneFlowM3h": 2.818,
+    "sourceUtilisation": 0.705,
+    "wastedAreaM2": 52.3,
+    "warnings": [
+     "layout-watering-outside"
+    ]
+   },
+   "areaM2": 208
+  },
+  {
+   "key": "layout-triangle",
+   "title": "Треугольный участок",
+   "brief": "Острые углы — худшая геометрия для дождевания: круг в них не вписывается без перелива за границу.",
+   "difficulty": 4,
+   "lesson": "В остром угле полностью избежать полива за границу невозможно. Задача — свести его к минимуму, а не к нулю: круглый факел в угол не вписывается.",
+   "plan": {
+    "boundary": {
+     "points": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 18,
+       "y": 0
+      },
+      {
+       "x": 0,
+       "y": 12
+      }
+     ]
+    },
+    "obstacles": [],
+    "plantings": [
+     {
+      "kind": "lawn",
+      "polygon": {
+       "points": [
+        {
+         "x": 0,
+         "y": 0
+        },
+        {
+         "x": 18,
+         "y": 0
+        },
+        {
+         "x": 0,
+         "y": 12
+        }
+       ]
+      }
+     }
+    ],
+    "sourceFlowM3h": 3,
+    "workingPressureBar": 3
+   },
+   "reference": [
+    {
+     "id": "h1",
+     "position": {
+      "x": 0.2,
+      "y": 0.2
+     },
+     "radiusM": 3.2,
+     "startDeg": 348,
+     "sweepDeg": 115,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 61,
+     "model": "Роторное сопло 3 м"
+    },
+    {
+     "id": "h2",
+     "position": {
+      "x": 3.13,
+      "y": 0.2
+     },
+     "radiusM": 3.2,
+     "startDeg": 348,
+     "sweepDeg": 205,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 108,
+     "model": "Роторное сопло 3 м"
+    },
+    {
+     "id": "h3",
+     "position": {
+      "x": 6.07,
+      "y": 0.2
+     },
+     "radiusM": 3.2,
+     "startDeg": 348,
+     "sweepDeg": 205,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 108,
+     "model": "Роторное сопло 3 м"
+    },
+    {
+     "id": "h4",
+     "position": {
+      "x": 9,
+      "y": 0.2
+     },
+     "radiusM": 3.2,
+     "startDeg": 348,
+     "sweepDeg": 205,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 108,
+     "model": "Роторное сопло 3 м"
+    },
+    {
+     "id": "h5",
+     "position": {
+      "x": 11.93,
+      "y": 0.2
+     },
+     "radiusM": 3.2,
+     "startDeg": 348,
+     "sweepDeg": 205,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 108,
+     "model": "Роторное сопло 3 м"
+    },
+    {
+     "id": "h6",
+     "position": {
+      "x": 14.87,
+      "y": 0.2
+     },
+     "radiusM": 3.2,
+     "startDeg": 63,
+     "sweepDeg": 130,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 69,
+     "model": "Роторное сопло 3 м"
+    },
+    {
+     "id": "h7",
+     "position": {
+      "x": 0.2,
+      "y": 3.1
+     },
+     "radiusM": 3.2,
+     "startDeg": 258,
+     "sweepDeg": 205,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 108,
+     "model": "Роторное сопло 3 м"
+    },
+    {
+     "id": "h8",
+     "position": {
+      "x": 3.13,
+      "y": 3.1
+     },
+     "radiusM": 3.2,
+     "startDeg": 0,
+     "sweepDeg": 360,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 190,
+     "model": "Роторное сопло 3 м"
+    },
+    {
+     "id": "h9",
+     "position": {
+      "x": 6.07,
+      "y": 3.1
+     },
+     "radiusM": 3.2,
+     "startDeg": 0,
+     "sweepDeg": 360,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 190,
+     "model": "Роторное сопло 3 м"
+    },
+    {
+     "id": "h10",
+     "position": {
+      "x": 9,
+      "y": 3.1
+     },
+     "radiusM": 3.2,
+     "startDeg": 0,
+     "sweepDeg": 360,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 190,
+     "model": "Роторное сопло 3 м"
+    },
+    {
+     "id": "h11",
+     "position": {
+      "x": 11.93,
+      "y": 3.1
+     },
+     "radiusM": 3.2,
+     "startDeg": 112,
+     "sweepDeg": 249,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 131,
+     "model": "Роторное сопло 3 м"
+    },
+    {
+     "id": "h12",
+     "position": {
+      "x": 0.2,
+      "y": 6
+     },
+     "radiusM": 3.2,
+     "startDeg": 258,
+     "sweepDeg": 205,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 108,
+     "model": "Роторное сопло 3 м"
+    },
+    {
+     "id": "h13",
+     "position": {
+      "x": 3.13,
+      "y": 6
+     },
+     "radiusM": 3.2,
+     "startDeg": 0,
+     "sweepDeg": 360,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 190,
+     "model": "Роторное сопло 3 м"
+    },
+    {
+     "id": "h14",
+     "position": {
+      "x": 6.07,
+      "y": 6
+     },
+     "radiusM": 3.2,
+     "startDeg": 0,
+     "sweepDeg": 360,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 190,
+     "model": "Роторное сопло 3 м"
+    },
+    {
+     "id": "h15",
+     "position": {
+      "x": 8.81,
+      "y": 5.88
+     },
+     "radiusM": 3.2,
+     "startDeg": 134,
+     "sweepDeg": 205,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 108,
+     "model": "Роторное сопло 3 м"
+    },
+    {
+     "id": "h16",
+     "position": {
+      "x": 0.2,
+      "y": 8.9
+     },
+     "radiusM": 3.2,
+     "startDeg": 258,
+     "sweepDeg": 205,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 108,
+     "model": "Роторное сопло 3 м"
+    },
+    {
+     "id": "h17",
+     "position": {
+      "x": 3.13,
+      "y": 8.9
+     },
+     "radiusM": 3.2,
+     "startDeg": 110,
+     "sweepDeg": 254,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 134,
+     "model": "Роторное сопло 3 м"
+    },
+    {
+     "id": "h18",
+     "position": {
+      "x": 0.38,
+      "y": 11.56
+     },
+     "radiusM": 3.2,
+     "startDeg": 252,
+     "sweepDeg": 85,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 45,
+     "model": "Роторное сопло 3 м"
+    }
+   ],
+   "qaVerified": true,
+   "qaNotes": "Эталон проверен расчётным движком при ячейке 0,25 м: покрытие 97,1 %, оценка 0,83, голов 18, расход 2,25 м³/ч (75 % дебита), полив мимо цели 22,8 м². Предупреждения: layout-uncovered.",
+   "qa": {
+    "coverageRatio": 0.971,
+    "score": 0.83,
+    "heads": 18,
+    "zoneFlowM3h": 2.254,
+    "sourceUtilisation": 0.751,
+    "wastedAreaM2": 22.8,
+    "warnings": [
+     "layout-uncovered"
+    ]
+   },
+   "areaM2": 108
+  },
+  {
+   "key": "layout-weak-source",
+   "title": "Слабый источник",
+   "brief": "Дебит скважины всего 1,8 м³/ч. Газон закрыть надо, но расход зоны не должен превысить 80 % дебита.",
+   "difficulty": 4,
+   "lesson": "При слабом дебите выигрывают головы с большим радиусом и малым расходом: меньше голов на ту же площадь означает меньший расход зоны.",
+   "plan": {
+    "boundary": {
+     "points": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 14,
+       "y": 0
+      },
+      {
+       "x": 14,
+       "y": 10
+      },
+      {
+       "x": 0,
+       "y": 10
+      }
+     ]
+    },
+    "obstacles": [],
+    "plantings": [
+     {
+      "kind": "lawn",
+      "polygon": {
+       "points": [
+        {
+         "x": 0,
+         "y": 0
+        },
+        {
+         "x": 14,
+         "y": 0
+        },
+        {
+         "x": 14,
+         "y": 10
+        },
+        {
+         "x": 0,
+         "y": 10
+        }
+       ]
+      }
+     }
+    ],
+    "sourceFlowM3h": 2.4,
+    "workingPressureBar": 3
+   },
+   "reference": [
+    {
+     "id": "h1",
+     "position": {
+      "x": 0.21,
+      "y": 0.19
+     },
+     "radiusM": 5,
+     "startDeg": 351,
+     "sweepDeg": 109,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 79,
+     "model": "Роторное сопло 7 м"
+    },
+    {
+     "id": "h2",
+     "position": {
+      "x": 4.75,
+      "y": 0.22
+     },
+     "radiusM": 5,
+     "startDeg": 350,
+     "sweepDeg": 201,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 145,
+     "model": "Роторное сопло 7 м"
+    },
+    {
+     "id": "h3",
+     "position": {
+      "x": 9.25,
+      "y": 0.22
+     },
+     "radiusM": 5,
+     "startDeg": 350,
+     "sweepDeg": 201,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 145,
+     "model": "Роторное сопло 7 м"
+    },
+    {
+     "id": "h4",
+     "position": {
+      "x": 13.79,
+      "y": 0.19
+     },
+     "radiusM": 5,
+     "startDeg": 81,
+     "sweepDeg": 109,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 79,
+     "model": "Роторное сопло 7 м"
+    },
+    {
+     "id": "h5",
+     "position": {
+      "x": 0.23,
+      "y": 5
+     },
+     "radiusM": 5,
+     "startDeg": 260,
+     "sweepDeg": 201,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 145,
+     "model": "Роторное сопло 7 м"
+    },
+    {
+     "id": "h6",
+     "position": {
+      "x": 4.72,
+      "y": 5
+     },
+     "radiusM": 5,
+     "startDeg": 0,
+     "sweepDeg": 360,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 260,
+     "model": "Роторное сопло 7 м"
+    },
+    {
+     "id": "h7",
+     "position": {
+      "x": 9.28,
+      "y": 5
+     },
+     "radiusM": 5,
+     "startDeg": 0,
+     "sweepDeg": 360,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 260,
+     "model": "Роторное сопло 7 м"
+    },
+    {
+     "id": "h8",
+     "position": {
+      "x": 13.85,
+      "y": 5
+     },
+     "radiusM": 5,
+     "startDeg": 82,
+     "sweepDeg": 197,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 142,
+     "model": "Роторное сопло 7 м"
+    },
+    {
+     "id": "h9",
+     "position": {
+      "x": 0.21,
+      "y": 9.81
+     },
+     "radiusM": 5,
+     "startDeg": 261,
+     "sweepDeg": 109,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 79,
+     "model": "Роторное сопло 7 м"
+    },
+    {
+     "id": "h10",
+     "position": {
+      "x": 4.72,
+      "y": 9.85
+     },
+     "radiusM": 5,
+     "startDeg": 172,
+     "sweepDeg": 197,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 142,
+     "model": "Роторное сопло 7 м"
+    },
+    {
+     "id": "h11",
+     "position": {
+      "x": 9.28,
+      "y": 9.85
+     },
+     "radiusM": 5,
+     "startDeg": 172,
+     "sweepDeg": 197,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 142,
+     "model": "Роторное сопло 7 м"
+    },
+    {
+     "id": "h12",
+     "position": {
+      "x": 13.85,
+      "y": 9.85
+     },
+     "radiusM": 5,
+     "startDeg": 172,
+     "sweepDeg": 107,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 77,
+     "model": "Роторное сопло 7 м"
+    }
+   ],
+   "qaVerified": true,
+   "qaNotes": "Эталон проверен расчётным движком при ячейке 0,25 м: покрытие 100,0 %, оценка 0,93, голов 12, расход 1,70 м³/ч (71 % дебита), полив мимо цели 20,1 м². Предупреждений нет.",
+   "qa": {
+    "coverageRatio": 1,
+    "score": 0.93,
+    "heads": 12,
+    "zoneFlowM3h": 1.695,
+    "sourceUtilisation": 0.706,
+    "wastedAreaM2": 20.1,
+    "warnings": []
+   },
+   "areaM2": 140
+  },
+  {
+   "key": "layout-terrace",
+   "title": "Газон с террасой и деревом",
+   "brief": "Два препятствия разной формы. Дерево поливается отдельной зоной, а террасу мочить нельзя.",
+   "difficulty": 4,
+   "lesson": "Препятствия у кромки и в середине ведут себя по-разному: у кромки они лишь урезают сектор, а в середине заставляют обходить их с нескольких сторон.",
+   "plan": {
+    "boundary": {
+     "points": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 18,
+       "y": 0
+      },
+      {
+       "x": 18,
+       "y": 14
+      },
+      {
+       "x": 0,
+       "y": 14
+      }
+     ]
+    },
+    "obstacles": [
+     {
+      "kind": "terrace",
+      "polygon": {
+       "points": [
+        {
+         "x": 0,
+         "y": 0
+        },
+        {
+         "x": 6,
+         "y": 0
+        },
+        {
+         "x": 6,
+         "y": 4
+        },
+        {
+         "x": 0,
+         "y": 4
+        }
+       ]
+      },
+      "label": "Терраса"
+     },
+     {
+      "kind": "other",
+      "polygon": {
+       "points": [
+        {
+         "x": 12,
+         "y": 9
+        },
+        {
+         "x": 15,
+         "y": 9
+        },
+        {
+         "x": 15,
+         "y": 12
+        },
+        {
+         "x": 12,
+         "y": 12
+        }
+       ]
+      },
+      "label": "Дерево"
+     }
+    ],
+    "plantings": [
+     {
+      "kind": "lawn",
+      "polygon": {
+       "points": [
+        {
+         "x": 0,
+         "y": 0
+        },
+        {
+         "x": 18,
+         "y": 0
+        },
+        {
+         "x": 18,
+         "y": 14
+        },
+        {
+         "x": 0,
+         "y": 14
+        }
+       ]
+      }
+     }
+    ],
+    "sourceFlowM3h": 4.5,
+    "workingPressureBar": 3
+   },
+   "reference": [
+    {
+     "id": "h1",
+     "position": {
+      "x": 9,
+      "y": 0.23
+     },
+     "radiusM": 5,
+     "startDeg": 350,
+     "sweepDeg": 201,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 179,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h2",
+     "position": {
+      "x": 13.39,
+      "y": 0.21
+     },
+     "radiusM": 5,
+     "startDeg": 351,
+     "sweepDeg": 199,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 177,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h3",
+     "position": {
+      "x": 17.79,
+      "y": 0.2
+     },
+     "radiusM": 5,
+     "startDeg": 81,
+     "sweepDeg": 109,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 97,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h4",
+     "position": {
+      "x": 0.22,
+      "y": 4.74
+     },
+     "radiusM": 5,
+     "startDeg": 338,
+     "sweepDeg": 123,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 109,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h5",
+     "position": {
+      "x": 4.58,
+      "y": 4.72
+     },
+     "radiusM": 5,
+     "startDeg": 300,
+     "sweepDeg": 262,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 233,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h6",
+     "position": {
+      "x": 9,
+      "y": 4.72
+     },
+     "radiusM": 5,
+     "startDeg": 0,
+     "sweepDeg": 360,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 320,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h7",
+     "position": {
+      "x": 13.43,
+      "y": 4.72
+     },
+     "radiusM": 5,
+     "startDeg": 0,
+     "sweepDeg": 360,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 320,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h8",
+     "position": {
+      "x": 17.78,
+      "y": 4.74
+     },
+     "radiusM": 5,
+     "startDeg": 80,
+     "sweepDeg": 201,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 179,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h9",
+     "position": {
+      "x": 0.22,
+      "y": 9.26
+     },
+     "radiusM": 5,
+     "startDeg": 260,
+     "sweepDeg": 201,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 179,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h10",
+     "position": {
+      "x": 4.58,
+      "y": 9.28
+     },
+     "radiusM": 5,
+     "startDeg": 0,
+     "sweepDeg": 360,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 320,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h11",
+     "position": {
+      "x": 9,
+      "y": 9.28
+     },
+     "radiusM": 5,
+     "startDeg": 0,
+     "sweepDeg": 360,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 320,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h12",
+     "position": {
+      "x": 17.78,
+      "y": 9.26
+     },
+     "radiusM": 5,
+     "startDeg": 80,
+     "sweepDeg": 201,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 179,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h13",
+     "position": {
+      "x": 0.21,
+      "y": 13.8
+     },
+     "radiusM": 5,
+     "startDeg": 261,
+     "sweepDeg": 109,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 97,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h14",
+     "position": {
+      "x": 4.58,
+      "y": 13.85
+     },
+     "radiusM": 5,
+     "startDeg": 172,
+     "sweepDeg": 197,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 175,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h15",
+     "position": {
+      "x": 9,
+      "y": 13.85
+     },
+     "radiusM": 5,
+     "startDeg": 172,
+     "sweepDeg": 197,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 175,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h16",
+     "position": {
+      "x": 13.43,
+      "y": 13.85
+     },
+     "radiusM": 5,
+     "startDeg": 172,
+     "sweepDeg": 69,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 61,
+     "model": "Роторное сопло 5 м"
+    },
+    {
+     "id": "h17",
+     "position": {
+      "x": 17.79,
+      "y": 13.8
+     },
+     "radiusM": 5,
+     "startDeg": 171,
+     "sweepDeg": 109,
+     "emitterClass": "rotary_nozzle",
+     "flowLph": 97,
+     "model": "Роторное сопло 5 м"
+    }
+   ],
+   "qaVerified": true,
+   "qaNotes": "Эталон проверен расчётным движком при ячейке 0,25 м: покрытие 100,0 %, оценка 0,86, голов 17, расход 3,22 м³/ч (72 % дебита), полив мимо цели 41,1 м². Предупреждения: layout-watering-obstacles.",
+   "qa": {
+    "coverageRatio": 1,
+    "score": 0.86,
+    "heads": 17,
+    "zoneFlowM3h": 3.217,
+    "sourceUtilisation": 0.715,
+    "wastedAreaM2": 41.1,
+    "warnings": [
+     "layout-watering-obstacles"
+    ]
+   },
+   "areaM2": 252
+  },
+  {
+   "key": "layout-large-lawn",
+   "title": "Большой газон 26 × 18",
+   "brief": "Участок, где счёт голов и расхода становится определяющим. Проверьте загрузку источника и число голов.",
+   "difficulty": 5,
+   "lesson": "На большой площади каждая лишняя голова — это расход, который придётся вычесть из дебита. Радиус побольше при том же расходе почти всегда выгоднее.",
+   "plan": {
+    "boundary": {
+     "points": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 26,
+       "y": 0
+      },
+      {
+       "x": 26,
+       "y": 18
+      },
+      {
+       "x": 0,
+       "y": 18
+      }
+     ]
+    },
+    "obstacles": [],
+    "plantings": [
+     {
+      "kind": "lawn",
+      "polygon": {
+       "points": [
+        {
+         "x": 0,
+         "y": 0
+        },
+        {
+         "x": 26,
+         "y": 0
+        },
+        {
+         "x": 26,
+         "y": 18
+        },
+        {
+         "x": 0,
+         "y": 18
+        }
+       ]
+      }
+     }
+    ],
+    "sourceFlowM3h": 10,
+    "workingPressureBar": 3.5
+   },
+   "reference": [
+    {
+     "id": "h1",
+     "position": {
+      "x": 0.21,
+      "y": 0.19
+     },
+     "radiusM": 7,
+     "startDeg": 352,
+     "sweepDeg": 107,
+     "emitterClass": "rotor",
+     "flowLph": 184,
+     "model": "Ротор 9 м"
+    },
+    {
+     "id": "h2",
+     "position": {
+      "x": 6.62,
+      "y": 0.21
+     },
+     "radiusM": 7,
+     "startDeg": 352,
+     "sweepDeg": 197,
+     "emitterClass": "rotor",
+     "flowLph": 339,
+     "model": "Ротор 9 м"
+    },
+    {
+     "id": "h3",
+     "position": {
+      "x": 13,
+      "y": 0.23
+     },
+     "radiusM": 7,
+     "startDeg": 352,
+     "sweepDeg": 197,
+     "emitterClass": "rotor",
+     "flowLph": 339,
+     "model": "Ротор 9 м"
+    },
+    {
+     "id": "h4",
+     "position": {
+      "x": 19.39,
+      "y": 0.21
+     },
+     "radiusM": 7,
+     "startDeg": 352,
+     "sweepDeg": 197,
+     "emitterClass": "rotor",
+     "flowLph": 339,
+     "model": "Ротор 9 м"
+    },
+    {
+     "id": "h5",
+     "position": {
+      "x": 25.79,
+      "y": 0.19
+     },
+     "radiusM": 7,
+     "startDeg": 82,
+     "sweepDeg": 107,
+     "emitterClass": "rotor",
+     "flowLph": 184,
+     "model": "Ротор 9 м"
+    },
+    {
+     "id": "h6",
+     "position": {
+      "x": 0.22,
+      "y": 6.07
+     },
+     "radiusM": 7,
+     "startDeg": 262,
+     "sweepDeg": 197,
+     "emitterClass": "rotor",
+     "flowLph": 339,
+     "model": "Ротор 9 м"
+    },
+    {
+     "id": "h7",
+     "position": {
+      "x": 6.58,
+      "y": 6.05
+     },
+     "radiusM": 7,
+     "startDeg": 0,
+     "sweepDeg": 360,
+     "emitterClass": "rotor",
+     "flowLph": 620,
+     "model": "Ротор 9 м"
+    },
+    {
+     "id": "h8",
+     "position": {
+      "x": 13,
+      "y": 6.05
+     },
+     "radiusM": 7,
+     "startDeg": 0,
+     "sweepDeg": 360,
+     "emitterClass": "rotor",
+     "flowLph": 620,
+     "model": "Ротор 9 м"
+    },
+    {
+     "id": "h9",
+     "position": {
+      "x": 19.43,
+      "y": 6.05
+     },
+     "radiusM": 7,
+     "startDeg": 0,
+     "sweepDeg": 360,
+     "emitterClass": "rotor",
+     "flowLph": 620,
+     "model": "Ротор 9 м"
+    },
+    {
+     "id": "h10",
+     "position": {
+      "x": 25.78,
+      "y": 6.07
+     },
+     "radiusM": 7,
+     "startDeg": 82,
+     "sweepDeg": 197,
+     "emitterClass": "rotor",
+     "flowLph": 339,
+     "model": "Ротор 9 м"
+    },
+    {
+     "id": "h11",
+     "position": {
+      "x": 0.22,
+      "y": 11.93
+     },
+     "radiusM": 7,
+     "startDeg": 262,
+     "sweepDeg": 197,
+     "emitterClass": "rotor",
+     "flowLph": 339,
+     "model": "Ротор 9 м"
+    },
+    {
+     "id": "h12",
+     "position": {
+      "x": 6.58,
+      "y": 11.95
+     },
+     "radiusM": 7,
+     "startDeg": 0,
+     "sweepDeg": 360,
+     "emitterClass": "rotor",
+     "flowLph": 620,
+     "model": "Ротор 9 м"
+    },
+    {
+     "id": "h13",
+     "position": {
+      "x": 13,
+      "y": 11.95
+     },
+     "radiusM": 7,
+     "startDeg": 0,
+     "sweepDeg": 360,
+     "emitterClass": "rotor",
+     "flowLph": 620,
+     "model": "Ротор 9 м"
+    },
+    {
+     "id": "h14",
+     "position": {
+      "x": 19.43,
+      "y": 11.95
+     },
+     "radiusM": 7,
+     "startDeg": 0,
+     "sweepDeg": 360,
+     "emitterClass": "rotor",
+     "flowLph": 620,
+     "model": "Ротор 9 м"
+    },
+    {
+     "id": "h15",
+     "position": {
+      "x": 25.78,
+      "y": 11.93
+     },
+     "radiusM": 7,
+     "startDeg": 82,
+     "sweepDeg": 197,
+     "emitterClass": "rotor",
+     "flowLph": 339,
+     "model": "Ротор 9 м"
+    },
+    {
+     "id": "h16",
+     "position": {
+      "x": 0.21,
+      "y": 17.81
+     },
+     "radiusM": 7,
+     "startDeg": 262,
+     "sweepDeg": 107,
+     "emitterClass": "rotor",
+     "flowLph": 184,
+     "model": "Ротор 9 м"
+    },
+    {
+     "id": "h17",
+     "position": {
+      "x": 6.62,
+      "y": 17.79
+     },
+     "radiusM": 7,
+     "startDeg": 172,
+     "sweepDeg": 197,
+     "emitterClass": "rotor",
+     "flowLph": 339,
+     "model": "Ротор 9 м"
+    },
+    {
+     "id": "h18",
+     "position": {
+      "x": 13,
+      "y": 17.78
+     },
+     "radiusM": 7,
+     "startDeg": 172,
+     "sweepDeg": 197,
+     "emitterClass": "rotor",
+     "flowLph": 339,
+     "model": "Ротор 9 м"
+    },
+    {
+     "id": "h19",
+     "position": {
+      "x": 19.39,
+      "y": 17.79
+     },
+     "radiusM": 7,
+     "startDeg": 172,
+     "sweepDeg": 197,
+     "emitterClass": "rotor",
+     "flowLph": 339,
+     "model": "Ротор 9 м"
+    },
+    {
+     "id": "h20",
+     "position": {
+      "x": 25.79,
+      "y": 17.81
+     },
+     "radiusM": 7,
+     "startDeg": 172,
+     "sweepDeg": 107,
+     "emitterClass": "rotor",
+     "flowLph": 184,
+     "model": "Ротор 9 м"
+    }
+   ],
+   "qaVerified": true,
+   "qaNotes": "Эталон проверен расчётным движком при ячейке 0,25 м: покрытие 100,0 %, оценка 0,94, голов 20, расход 7,85 м³/ч (79 % дебита), полив мимо цели 57,3 м². Предупреждений нет.",
+   "qa": {
+    "coverageRatio": 1,
+    "score": 0.94,
+    "heads": 20,
+    "zoneFlowM3h": 7.846,
+    "sourceUtilisation": 0.785,
+    "wastedAreaM2": 57.3,
+    "warnings": []
+   },
+   "areaM2": 468
+  }
+ ]
+}

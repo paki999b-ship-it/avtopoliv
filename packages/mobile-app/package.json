@@ -1,0 +1,40 @@
+{
+  "name": "@irrigo/mobile-app",
+  "version": "0.1.0",
+  "private": true,
+  "productName": "АртЛандшафт",
+  "description": "Оболочка АртЛандшафт для Android (Capacitor + WebView)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest run",
+    "sync": "cap sync android",
+    "build:android": "vite build && cap sync android",
+    "open:android": "cap open android",
+    "apk:debug": "cd android && cmd //c gradlew.bat assembleDebug",
+    "apk:release": "cd android && cmd //c gradlew.bat assembleRelease",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.0",
+    "@capacitor/app": "^8.0.0",
+    "@capacitor/clipboard": "^8.0.0",
+    "@capacitor/core": "^8.5.0",
+    "@capacitor/filesystem": "^8.0.0",
+    "@capacitor/share": "^8.0.0",
+    "@capacitor/status-bar": "^8.0.0",
+    "@irrigo/core": "*",
+    "@irrigo/ui": "*",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.15.4",
+    "sql.js": "^1.13.0",
+    "zustand": "^5.0.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.0",
+    "@types/node": "^26.4.0",
+    "@types/sql.js": "^1.4.9"
+  }
+}
